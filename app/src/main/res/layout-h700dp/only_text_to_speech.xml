@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/only_tts"
+    tools:context=".OnlyTextToSpeech">
+
+    <FrameLayout
+        android:id="@+id/imageFrame2"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:background="@drawable/bg"
+        app:layout_constraintBottom_toTopOf="@id/imageButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="296dp"
+            android:layout_height="360dp"
+            android:contentDescription="@string/todo"
+            android:layout_gravity="center"
+            android:foregroundGravity="clip_vertical"
+            android:scaleType="center"
+            android:foreground="@drawable/robot_eye02"
+            android:background="@drawable/robot01"
+            android:src="@drawable/robot_lip01" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/button13"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/select_ai_button"
+        android:contentDescription="@string/selectAI"
+        app:layout_constraintBottom_toTopOf="@id/editText4"
+        app:layout_constraintEnd_toStartOf="@id/imageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageFrame2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_media_play"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@id/editText4"
+        app:layout_constraintEnd_toStartOf="@id/imageButton2"
+        app:layout_constraintStart_toEndOf="@id/button13"
+        app:layout_constraintTop_toBottomOf="@id/imageFrame2"
+        android:contentDescription="@string/play" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_media_pause"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@id/editText4"
+        app:layout_constraintEnd_toStartOf="@id/save_tts_btn"
+        app:layout_constraintStart_toEndOf="@id/imageButton"
+        app:layout_constraintTop_toBottomOf="@id/imageFrame2"
+        android:contentDescription="@string/pause" />
+
+    <ImageButton
+        android:id="@+id/save_tts_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/save_picture_button"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintBottom_toTopOf="@id/editText4"
+        app:layout_constraintEnd_toStartOf="@id/imageButton11"
+        app:layout_constraintStart_toEndOf="@id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@id/imageFrame2"
+        android:contentDescription="@string/save" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/setting_button"
+        android:contentDescription="@string/settings"
+        app:layout_constraintBottom_toTopOf="@id/editText4"
+        app:layout_constraintEnd_toStartOf="@id/button14"
+        app:layout_constraintStart_toEndOf="@id/save_tts_btn"
+        app:layout_constraintTop_toBottomOf="@id/imageFrame2" />
+
+    <ImageButton
+        android:id="@+id/button14"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home_button"
+        android:contentDescription="@string/home"
+        app:layout_constraintBottom_toTopOf="@id/editText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@id/imageFrame2" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints="write here"
+        android:background="@drawable/edittext_border"
+        android:gravity="start|top"
+        android:hint="@string/msg"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:minWidth="150dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:scrollHorizontally="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black"
+        android:textColorHint="@color/textHint"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageButton" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="1000"
+        android:indeterminate="true"
+        android:indeterminateBehavior="repeat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

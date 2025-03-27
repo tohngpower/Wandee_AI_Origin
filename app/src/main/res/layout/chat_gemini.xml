@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/chat_gemini"
+    tools:context=".ChatGemini">
+
+<TextView
+    android:id="@+id/textView36"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:padding="8dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/title_border2"
+    android:textColor="@color/white"
+    android:gravity="center"
+    android:text="@string/app_name"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textStyle="bold" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/gemini_chatView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/bottomLayout3"
+    android:layout_below="@id/textView36"
+    app:stackFromEnd="true" />
+
+<LinearLayout
+    android:id="@+id/bottomLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp"
+    android:minHeight="50dp"
+    android:layout_alignParentBottom="true">
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:autofillHints="write here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/white"
+        android:textColorHint="@color/textHint"
+        android:background="@drawable/edittext_border"
+        android:hint="@string/msg"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:minWidth="150dp"
+        android:minHeight="50dp"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/imageClose4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@string/clear"
+        android:src="@android:drawable/btn_dialog" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/submit"
+        android:background="@drawable/send_icon" />
+</LinearLayout>
+</RelativeLayout>
