@@ -1,0 +1,910 @@
+<resources>
+    <string name="app_name">Wandee AI</string>
+    <string name="todo">TODO</string>
+    <string name="talk">MIC</string>
+    <string name="TextView">TextView</string>
+    <string name="MIC">MIC</string>
+    <string name="protraitText">Protrait</string>
+    <string name="landscapeText">Landscape</string>
+    <string name="welcome_text">Happy new year 2025</string>
+    <string name="hello_text">สวัสดี</string>
+    <string name="msg">Message</string>
+    <string name="send">.</string>
+    <string name="submit">Submit</string>
+    <string name="prompt">Prompt</string>
+    <string name="delete">Delete</string>
+    <string name="replace">Replace</string>
+    <string name="home">Home</string>
+    <string name="newanswer">New answer</string>
+    <string name="databasemanage">Database</string>
+    <string name="databaseimage">Image Database</string>
+    <string name="imageMod">Image Modification</string>
+    <string name="selectImage">Select Image</string>
+    <string name="selectAI">Select AI</string>
+    <string name="AI1">AI 1</string>
+    <string name="AI2">AI 2</string>
+    <string name="AI3">AI 3</string>
+    <string name="AI4">AI 4</string>
+    <string name="AI5">AI 5</string>
+    <string name="AI6">AI 6</string>
+    <string name="AI7">AI 7</string>
+    <string name="AI8">AI 8</string>
+    <string name="AI9">AI 9</string>
+    <string name="AI10">AI 10</string>
+    <string name="api_enter">Enter your OpenAI API Key here</string>
+    <string name="api_key_help">Please follow below steps.\n\n1.Open internet browser and go to https://openai.com\n2.Click menu and log in\n3.Select API\n4.Find the lock icon and click API keys\n5.Create new secret key\n6.Enter the secret key into App Wandee\n\nYou can read PDF or watch video for more details.</string>
+    <string name="checkAPI_status">API status: None</string>
+    <string name="settings">Settings</string>
+    <string name="show_text">Hello Master, This is your text appearance.</string>
+    <string name="set_font">Font size:</string>
+    <string name="set_language">Language:</string>
+    <string name="save">Save</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="text_to_speech">Text to speech mode</string>
+    <string name="set_imageSize">Image size:</string>
+    <string name="set_notification">Notification:</string>
+    <string name="chat_mode">Chat mode</string>
+    <string name="help">Help</string>
+    <string name="about">About Wandee</string>
+    <string name="appTheme">Theme:</string>
+    <string name="gptModel">AI Model:</string>
+    <string name="contribute">Contribute Wandee</string>
+    <string name="loading">Loading</string>
+    <string name="ad">Sponsored</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="exit">Exit</string>
+    <string name="image">Image</string>
+    <string name="mask">Mask</string>
+    <string name="ad_short">Ad</string>
+    <string name="search">Search</string>
+    <string name="menu">Menu</string>
+    <string name="clear">Clear</string>
+    <string name="hide_PDF">Hide PDF</string>
+    <string name="hide_openAI">Hide Video</string>
+    <string name="tts">TTS</string>
+    <string name="rapid_key">Enter Rapid API key here</string>
+    <string name="news_update">Inquire about the current situation or the latest product prices</string>
+    <string name="world_update">World update</string>
+    <string name="Wandee_world_update">Wandee World Update</string>
+    <string name="gemini_key">Enter your Google AI API key here</string>
+    <string name="copy">Copy</string>
+    <string name="quote">Quote</string>
+    <string name="max_message">Max messages in chat:</string>
+    <string name="i100">100</string>
+    <string name="messages">messages</string>
+    <string name="no_image">There is no image to display. \n\nThis page use to store your generated image. You can generate your first image with imageGEN command. But you need to select GPT Model: gpt-4o-mini or gpt-4o in setting and enter your OpenAI API. \n\nYou can press back to main page.</string>
+    <string name="selectYourImage">Select image from the gallery to start image modification. \nPlease note that image are automatically resized to supported dimensions (1024x1024, 512x512, or 256x256) in PNG format before modification. For best results, select a square image.</string>
+    <string name="claude_key">Enter your Anthropic API key here</string>
+    <string name="screen_height">Screen height is insufficient to display the image size %1$s correctly. Please change screen orientation or exit split screen mode.</string>
+    <string name="assistant_list">Assistant list</string>
+    <string name="name">Name</string>
+    <string name="instructions">Instructions</string>
+    <string name="custom_assistant">Custom Assistant</string>
+    <string name="chat_background">Chat background image: </string>
+    <string name="msgs">msgs</string>
+    <string name="audio">Select audio</string>
+    <string name="open">Open</string>
+    <string name="code_interpreter">Codes interpreter</string>
+    <string name="file_search">File search</string>
+    <string name="attache_to_code">Attach to code interpreter:</string>
+    <string name="attache_to_file">Attach to file search:</string>
+    <string name="upload_file">Upload file</string>
+    <string name="game">Game</string>
+    <string name="openai_tts">OpenAI TTS:</string>
+    <string name="voice">Voice:</string>
+    <string name="voice_speed">Voice speed: %1$.2f X</string>
+    <string name="audio_hd">Audio HD:</string>
+    <string name="rename">Rename</string>
+    <string name="new_chat">New</string>
+    <string name="select">Select</string>
+    <string name="rename_chat">Rename chat</string>
+    <string name="report">Report</string>
+    <string name="feedback">Your feedback</string>
+    <string name="whisper">Whisper:</string>
+    <string name="store_data">Store data:</string>
+    <string name="speech_to_text">Speech to text mode</string>
+    <string name="from">From: </string>
+    <string name="to">To: </string>
+    <string name="chat_history">Chat History</string>
+    <string name="api_key_guide">Learn how to obtain an API key.</string>
+
+    <string-array name="text_appearances">
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Small</item>
+    </string-array>
+    <string-array name="text_language">
+        <item>Thai</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Malay</item>
+        <item>Filipino</item>
+        <item>Indonesia</item>
+        <item>Lao</item>
+        <item>Korean</item>
+        <item>Vietnamese</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Dutch</item>
+        <item>Swedish</item>
+        <item>Norwegian</item>
+        <item>Danish</item>
+        <item>Finnish</item>
+        <item>Polish</item>
+        <item>Turkish</item>
+        <item>Hebrew</item>
+        <item>Arabic</item>
+        <item>Persian</item>
+        <item>Hungarian</item>
+        <item>Czech</item>
+        <item>Slovak</item>
+        <item>Ukrainian</item>
+        <item>Romanian</item>
+    </string-array>
+    <string-array name="language_code">
+        <item>th-TH</item> <!-- Thai -->
+        <item>en-US</item> <!-- English (US) - consider offering 'en-GB' etc. -->
+        <item>zh-CN</item> <!-- Chinese (Simplified, Mainland China) - consider 'zh-TW' (Taiwan) -->
+        <item>ja-JP</item> <!-- Japanese -->
+        <item>ms-MY</item> <!-- Malay (Malaysia) -->
+        <item>fil-PH</item> <!-- Filipino (Philippines) -->
+        <item>id-ID</item> <!-- Indonesian -->
+        <item>lo-LA</item> <!-- Lao -->
+        <item>ko-KR</item> <!-- Korean -->
+        <item>vi-VN</item> <!-- Vietnamese -->
+        <item>es-ES</item> <!-- Spanish (Spain) - consider 'es-MX' (Mexico) etc. -->
+        <item>fr-FR</item> <!-- French (France) - consider 'fr-CA' (Canada) etc. -->
+        <item>de-DE</item> <!-- German (Germany) -->
+        <item>it-IT</item> <!-- Italian -->
+        <item>pt-PT</item> <!-- Portuguese (Portugal) - consider 'pt-BR' (Brazil) etc. -->
+        <item>ru-RU</item> <!-- Russian -->
+        <item>nl-NL</item> <!-- Dutch (Netherlands) -->
+        <item>sv-SE</item> <!-- Swedish -->
+        <item>nb-NO</item> <!-- Norwegian Bokmål -->
+        <item>da-DK</item> <!-- Danish -->
+        <item>fi-FI</item> <!-- Finnish -->
+        <item>pl-PL</item> <!-- Polish -->
+        <item>tr-TR</item> <!-- Turkish -->
+        <item>he-IL</item> <!-- Hebrew -->
+        <item>ar-SA</item> <!-- Arabic (Saudi Arabia) - consider regional variations -->
+        <item>fa-IR</item> <!-- Persian (Iran) -->
+        <item>hu-HU</item> <!-- Hungarian -->
+        <item>cs-CZ</item> <!-- Czech -->
+        <item>sk-SK</item> <!-- Slovak -->
+        <item>uk-UA</item> <!-- Ukrainian -->
+        <item>ro-RO</item> <!-- Romanian -->
+    </string-array>
+    <string-array name="language_code2">
+        <item>th</item> <!-- Thai -->
+        <item>en</item> <!-- English (US) - consider offering 'en-GB' etc. -->
+        <item>zh</item> <!-- Chinese (Simplified, Mainland China) - consider 'zh-TW' (Taiwan) -->
+        <item>ja</item> <!-- Japanese -->
+        <item>ms</item> <!-- Malay (Malaysia) -->
+        <item>fil</item> <!-- Filipino (Philippines) -->
+        <item>id</item> <!-- Indonesian -->
+        <item>lo</item> <!-- Lao -->
+        <item>ko</item> <!-- Korean -->
+        <item>vi</item> <!-- Vietnamese -->
+        <item>es</item> <!-- Spanish (Spain) - consider 'es-MX' (Mexico) etc. -->
+        <item>fr</item> <!-- French (France) - consider 'fr-CA' (Canada) etc. -->
+        <item>de</item> <!-- German (Germany) -->
+        <item>it</item> <!-- Italian -->
+        <item>pt</item> <!-- Portuguese (Portugal) - consider 'pt-BR' (Brazil) etc. -->
+        <item>ru</item> <!-- Russian -->
+        <item>nl</item> <!-- Dutch (Netherlands) -->
+        <item>sv</item> <!-- Swedish -->
+        <item>nb</item> <!-- Norwegian Bokmål -->
+        <item>da</item> <!-- Danish -->
+        <item>fi</item> <!-- Finnish -->
+        <item>pl</item> <!-- Polish -->
+        <item>tr</item> <!-- Turkish -->
+        <item>he</item> <!-- Hebrew -->
+        <item>ar</item> <!-- Arabic (Saudi Arabia) - consider regional variations -->
+        <item>fa</item> <!-- Persian (Iran) -->
+        <item>hu</item> <!-- Hungarian -->
+        <item>cs</item> <!-- Czech -->
+        <item>sk</item> <!-- Slovak -->
+        <item>uk</item> <!-- Ukrainian -->
+        <item>ro</item> <!-- Romanian -->
+    </string-array>
+    <string-array name="image_size">
+        <item>256x256</item>
+        <item>512x512</item>
+        <item>1024x1024</item>
+        <item>1792x1024</item>
+        <item>1024x1792</item>
+    </string-array>
+    <string-array name="on_off">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+    <string-array name="GPT">
+        <item>gpt-4o-mini</item>
+        <item>gpt-4o</item>
+        <item>gemini-1.5-flash</item>
+        <item>gemini-2.0-flash</item>
+        <item>claude-3-5-sonnet-20240620</item>
+        <item>llama-3.2-11b-vision-preview</item>
+        <item>llama-3.3-70b-versatile</item>
+        <item>llama-3.2-90b-vision-preview</item>
+        <item>gemini-2.0-flash-thinking-exp</item>
+        <item>llama-3.3-70b</item>
+        <item>typhoon-v2-70b-instruct</item>
+        <item>deepseek-r1-distill-llama-70b</item>
+    </string-array>
+    <string-array name="voice_list">
+        <item>alloy</item>
+        <item>echo</item>
+        <item>fable</item>
+        <item>onyx</item>
+        <item>nova</item>
+        <item>shimmer</item>
+    </string-array>
+    <string-array name="hello">
+        <item>สวัสดี</item>>
+        <item>Hello</item>
+        <item>你好</item>>
+        <item>こんにちは</item>>
+        <item>Hai</item>
+        <item>Kumusta</item>
+        <item>Halo</item>
+        <item>ສະບາຍດີ</item>
+        <item>안녕하세요</item>
+        <item>Xin chào</item>
+        <item>Hola</item>
+        <item>Bonjour</item>
+        <item>Hallo</item>
+        <item>Ciao</item>
+        <item>Olá</item>
+        <item>Здравствуйте</item>
+        <item>Hallo</item>
+        <item>Hej</item>
+        <item>Hei</item>
+        <item>Hej</item>
+        <item>Hei</item>
+        <item>Cześć</item>
+        <item>Merhaba</item>
+        <item>שלום</item>
+        <item>مرحبا</item>
+        <item>سلام</item>
+        <item>Szia</item>
+        <item>Ahoj</item>
+        <item>Ahoj</item>
+        <item>Привіт</item>
+        <item>Bună</item>
+    </string-array>
+    <string-array name="help_api">
+        <item>วันดีต้องการรหัส API ของ OpenAI เพื่อเข้าถึงฟีเจอร์ AI กรุณาทำตามขั้นตอนด้านล่าง\n\n1.เปิดเบราว์เซอร์อินเทอร์เน็ตและไปที่ https://openai.com\n2.คลิกเมนูและเข้าสู่ระบบ\n3.เลือก API\n4.ค้นหาไอคอนล็อคและคลิก API keys\n5.สร้างรหัสลับใหม่\n6.ป้อนรหัสลับเข้าไปในแอพวันดี\n\nคุณสามารถอ่าน PDF หรือดูวิดีโอเพื่อดูรายละเอียดเพิ่มเติม</item>
+        <item>Wandee require OpenAI API Key to access AI feature. Please follow below steps.\n\n1.Open internet browser and go to https://openai.com\n2.Click menu and log in\n3.Select API\n4.Find the lock icon and click API keys\n5.Create new secret key\n6.Enter the secret key into App Wandee\n\nYou can read PDF or watch video for more details.</item>
+        <item>万迪需要 OpenAI API 密钥才能访问 AI 功能。请按照以下步骤操作。\n\n1. 打开互联网浏览器并前往 https://openai.com\n2. 点击菜单并登录\n3. 选择 API\n4. 查找锁定图标并点击 API 密钥\n5. 创建新的密钥\n6. 在 Wandee 应用程序中输入密钥\n\n您可以阅读 PDF 或观看视频以获取更多详细信息。</item>
+        <item>ワンディーは AI 機能にアクセスするために OpenAI API キーが必要です。以下の手順に従ってください。\n\n1. インターネットブラウザを開き、https://openai.com にアクセスします\n2. メニューをクリックしてログインします\n3. API を選択します\n4. ロックアイコンを見つけて API キーをクリックします\n5. 新しいシークレットキーを作成します\n6. シークレットキーをアプリ Wandee に入力します\n\n詳細については、PDF を読むか、ビデオを視聴してください。</item>
+        <item>Wandee memerlukan Kunci API OpenAI untuk mengakses ciri AI. Sila ikuti langkah-langkah di bawah.\n\n1. Buka pelayar internet dan pergi ke https://openai.com\n2. Klik menu dan log masuk\n3. Pilih API\n4. Cari ikon kunci dan klik API keys\n5. Cipta kunci rahsia baharu\n6. Masukkan kunci rahsia ke dalam aplikasi Wandee\n\nAnda boleh membaca PDF atau menonton video untuk butiran lanjut.</item>
+        <item>Kinakailangan ng Wandee ang OpenAI API Key upang ma-access ang AI feature. Mangyaring sundin ang mga hakbang sa ibaba.\n\n1. Buksan ang internet browser at pumunta sa https://openai.com\n2. I-click ang menu at mag-login\n3. Piliin ang API\n4. Hanapin ang lock icon at i-click ang API keys\n5. Gumawa ng bagong secret key\n6. Ipasok ang secret key sa App Wandee\n\nMaaari kang magbasa ng PDF o manood ng video para sa higit pang mga detalye.</item>
+        <item>Wandee membutuhkan Kunci API OpenAI untuk mengakses fitur AI. Silakan ikuti langkah-langkah di bawah ini.\n\n1. Buka browser internet dan kunjungi https://openai.com\n2. Klik menu dan masuk\n3. Pilih API\n4. Temukan ikon kunci dan klik API keys\n5. Buat kunci rahasia baru\n6. Masukkan kunci rahasia ke dalam App Wandee\n\nAnda dapat membaca PDF atau menonton video untuk lebih jelasnya.</item>
+        <item>วันดีต้องการรหัส API ของ OpenAI เพื่อเข้าถึงคุณสมบัติ AI กรุณาทำตามขั้นตอนด้านล่าง\n\n1. เปิดเบราว์เซอร์อินเทอร์เน็ตและไปที่ https://openai.com\n2. คลิกเมนูและเข้าสู่ระบบ\n3. เลือก API\n4. ค้นหาไอคอนล็อคและคลิก API keys\n5. สร้างรหัสลับใหม่\n6. ป้อนรหัสลับเข้าไปในแอพวันดี\n\nคุณสามารถอ่าน PDF หรือดูวิดีโอเพื่อดูรายละเอียดเพิ่มเติม</item>
+        <item>완디는 AI 기능에 액세스하기 위해 OpenAI API 키가 필요합니다. 아래 단계를 따라주세요.\n\n1. 인터넷 브라우저를 열고 https://openai.com으로 이동합니다\n2. 메뉴를 클릭하고 로그인하세요\n3. API를 선택하세요\n4. 잠금 아이콘을 찾고 API 키를 클릭하세요\n5. 새로운 비밀 키를 만드세요\n6. 완디 앱에 비밀 키를 입력하세요\n\n자세한 내용은 PDF를 읽거나 동영상을 시청하세요.</item>
+        <item>Wandee cần OpenAI API Key để truy cập tính năng AI. Vui lòng làm theo các bước dưới đây.\n\n1. Mở trình duyệt internet và truy cập https://openai.com\n2. Nhấp vào menu và đăng nhập\n3. Chọn API\n4. Tìm biểu tượng khóa và nhấp vào API keys\n5. Tạo khóa bí mật mới\n6. Nhập khóa bí mật vào App Wandee\n\nBạn có thể đọc PDF hoặc xem video để biết thêm chi tiết.</item>
+        <item>Wandee requiere la clave API de OpenAI para acceder a la función de IA. Por favor, sigue los pasos a continuación.\n\n1. Abre el navegador de Internet y ve a https://openai.com\n2. Haz clic en el menú e inicia sesión\n3. Selecciona API\n4. Encuentra el icono de candado y haz clic en API keys\n5. Crea una nueva clave secreta\n6. Ingresa la clave secreta en la aplicación Wandee\n\nPuedes leer un PDF o ver un video para más detalles.</item>
+        <item>Wandee nécessite une clé API OpenAI pour accéder à la fonctionnalité IA. Veuillez suivre les étapes ci-dessous.\n\n1. Ouvrez un navigateur internet et rendez-vous sur https://openai.com\n2. Cliquez sur le menu et connectez-vous\n3. Sélectionnez API\n4. Trouvez l\'icône de verrouillage et cliquez sur API keys\n5. Créez une nouvelle clé secrète\n6. Entrez la clé secrète dans l\'application Wandee\n\nVous pouvez lire un PDF ou regarder une vidéo pour plus de détails.</item>
+        <item>Wandee benötigt den OpenAI API-Schlüssel, um auf die KI-Funktion zuzugreifen. Bitte befolgen Sie die folgenden Schritte.\n\n1. Öffnen Sie einen Internetbrowser und gehen Sie zu https://openai.com\n2. Klicken Sie auf das Menü und melden Sie sich an\n3. Wählen Sie API\n4. Finden Sie das Schloss-Symbol und klicken Sie auf API keys\n5. Erstellen Sie einen neuen geheimen Schlüssel\n6. Geben Sie den geheimen Schlüssel in die App Wandee ein\n\nSie können ein PDF lesen oder ein Video ansehen, um weitere Einzelheiten zu erfahren.</item>
+        <item>Wandee richiede la chiave API di OpenAI per accedere alla funzione di IA. Si prega di seguire i passaggi seguenti.\n\n1. Apri il browser internet e vai su https://openai.com\n2. Clicca sul menu e accedi\n3. Seleziona API\n4. Trova l\'icona del lucchetto e clicca su API keys\n5. Crea una nuova chiave segreta\n6. Inserisci la chiave segreta nell app Wandee\n\nPuoi leggere un PDF o guardare un video per ulteriori dettagli.</item>
+        <item>Wandee precisa da chave API do OpenAI para acessar o recurso de IA. Por favor, siga os passos abaixo.\n\n1. Abra o navegador da internet e vá para https://openai.com\n2. Clique no menu e faça login\n3. Selecione API\n4. Encontre o ícone de bloqueio e clique em API keys\n5. Crie uma nova chave secreta\n6. Insira a chave secreta no aplicativo Wandee\n\nVocê pode ler um PDF ou assistir a um vídeo para mais detalhes.</item>
+        <item>Wandee требует ключ API OpenAI для доступа к функциям ИИ. Пожалуйста, выполните следующие шаги.\n\n1. Откройте интернет-браузер и перейдите на https://openai.com\n2. Нажмите на меню и войдите в систему\n3. Выберите API\n4. Найдите значок замка и нажмите API keys\n5. Создайте новый секретный ключ\n6. Введите секретный ключ в приложение Wandee\n\nВы можете прочитать PDF или посмотреть видео для получения более подробной информации.</item>
+        <item>Wandee heeft de OpenAI API-sleutel nodig om toegang te krijgen tot AI-functionaliteit. Volg de onderstaande stappen.\n\n1. Open internetbrowser en ga naar https://openai.com\n2. Klik op het menu en log in\n3. Selecteer API\n4. Zoek het slotpictogram en klik op API keys\n5. Maak een nieuwe geheime sleutel aan\n6. Voer de geheime sleutel in de app Wandee in\n\nU kunt een PDF lezen of een video bekijken voor meer details.</item>
+        <item>Wandee kräver OpenAI API-nyckeln för att komma åt AI-funktionen. Följ nedanstående steg.\n\n1. Öppna internetwebbläsaren och gå till https://openai.com\n2. Klicka på menyn och logga in\n3. Välj API\n4. Hitta låsikonen och klicka på API keys\n5. Skapa en ny hemlig nyckel\n6. Ange den hemliga nyckeln i appen Wandee\n\nDu kan läsa PDF eller titta på video för mer detaljer.</item>
+        <item>Wandee krever OpenAI API-nøkkel for å få tilgang til AI-funksjonen. Vennligst følg trinnene nedenfor.\n\n1. Åpne nettleseren og gå til https://openai.com\n2. Klikk på menyen og logg inn\n3. Velg API\n4. Finn låsikonet og klikk API keys\n5. Opprett en ny hemmelig nøkkel\n6. Skriv inn den hemmelige nøkkelen i appen Wandee\n\nDu kan lese PDF eller se video for mer detaljer.</item>
+        <item>Wandee kræver OpenAI API-nøglen for at få adgang til AI-funktionen. Følg venligst nedenstående trin.\n\n1. Åbn internettet og gå til https://openai.com\n2. Klik på menuen og log ind\n3. Vælg API\n4. Find låsikonet og klik på API-nøgler\n5. Opret en ny hemmelig nøgle\n6. Indtast den hemmelige nøgle i appen Wandee\n\nDu kan læse en PDF eller se en video for mere information.</item>
+        <item>Wandee tarvitsee OpenAI API-avaimen päästäkseen AI-ominaisuuksiin. Noudata alla olevia ohjeita.\n\n1. Avaa internet-selain ja mene osoitteeseen https://openai.com\n2. Napsauta valikkoa ja kirjaudu sisään\n3. Valitse API\n4. Etsi lukkoikoni ja napsauta API-avain\n5. Luo uusi salainen avain\n6. Syötä salainen avain sovellukseen Wandee\n\nVoit lukea PDF-tiedoston tai katsella videon saadaksesi lisätietoja.</item>
+        <item>Wandee wymaga klucza API OpenAI do uzyskania dostępu do funkcji AI. Prosimy o postępowanie zgodnie z poniższymi krokami.\n\n1. Otwórz przeglądarkę internetową i przejdź na https://openai.com\n2. Kliknij menu i zaloguj się\n3. Wybierz API\n4. Znajdź ikonę kłódki i kliknij API keys\n5. Utwórz nowy tajny klucz\n6. Wprowadź tajny klucz do aplikacji Wandee\n\nMożesz przeczytać plik PDF lub obejrzeć wideo, aby uzyskać więcej szczegółów.</item>
+        <item>Wandee, AI özelliğine erişmek için OpenAI API Anahtarına ihtiyaç duyar. Lütfen aşağıdaki adımları izleyin.\n\n1. İnternet tarayıcısını açın ve https://openai.com adresine gidin\n2. Menüye tıklayın ve giriş yapın\n3. API yi seçin\n4. Kilit simgesini bulun ve API anahtarlarına tıklayın\n5. Yeni bir gizli anahtar oluşturun\n6. Gizli anahtarı Wandee uygulamasına girin\n\nDaha fazla ayrıntı için PDF okuyabilir veya video izleyebilirsiniz.</item>
+        <item>ונדי דורשת מפתח API של OpenAI כדי לגשת לתכונת ה-AI. אנא עקוב אחר השלבים הבאים.\n\n1. פתח את דפדפן האינטרנט ולך ל- https://openai.com\n2. לחץ על התפריט והתחבר\n3. בחר API\n4. מצא את סמל המנעול ולחץ על API keys\n5. צור מפתח סודי חדש\n6. הזן את המפתח הסודי באפליקציית ונדי\n\nניתן לקרוא PDF או לצפות בוידאו לקבלת פרטים נוספים.</item>
+        <item>تحتاج Wandee إلى مفتاح API من OpenAI للوصول إلى ميزة الذكاء الاصطناعي. يُرجى اتباع الخطوات التالية.\n\n1. افتح متصفح الإنترنت وانتقل إلى https://openai.com\n2. انقر على القائمة وقم بتسجيل الدخول\n3. اختر API\n4. ابحث عن أيقونة القفل وانقر على مفاتيح API\n5. أنشئ مفتاح سري جديد\n6. أدخل المفتاح السري في تطبيق Wandee\n\nيمكنك قراءة ملف PDF أو مشاهدة الفيديو لمزيد من التفاصيل.</item>
+        <item>واندي به کلید API اوپن ای آی نیاز دارد تا به ویژگی‌های هوش مصنوعی دسترسی پیدا کند. لطفاً مراحل زیر را دنبال کنید.\n\n1. مرورگر اینترنت را باز کرده و به https://openai.com بروید\n2. منو را کلیک کرده و وارد شوید\n3. API را انتخاب کنید\n4. نماد قفل را پیدا کنید و بر روی API keys کلیک کنید\n5. یک کلید مخفی جدید ایجاد کنید\n6. کلید مخفی را در برنامه واندي وارد کنید\n\nبرای جزئیات بیشتر می‌توانید فایل PDF را بخوانید یا ویدئو را مشاهده کنید.</item>
+        <item>Wandee-nek szüksége van az OpenAI API kulcsra az AI funkció eléréséhez. Kérjük, kövesse az alábbi lépéseket.\n\n1. Nyissa meg az internetböngészőt, és látogasson el a https://openai.com\n2. Kattintson a menüre, és jelentkezzen be\n3. Válassza az API-t\n4. Keresse meg a lakat ikont, és kattintson az API kulcsokra\n5. Hozzon létre új titkos kulcsot\n6. Adja meg a titkos kulcsot a Wandee alkalmazásban\n\nRészletekért olvashat PDF-t vagy nézhet videót.</item>
+        <item>Wandee vyžaduje klíč API OpenAI, aby získal přístup k funkci AI. Postupujte podle následujících kroků.\n\n1. Otevřete internetový prohlížeč a přejděte na https://openai.com\n2. Klikněte na nabídku a přihlaste se\n3. Vyberte API\n4. Najděte ikonu zámku a klikněte na API keys\n5. Vytvořte nový tajný klíč\n6. Zadejte tajný klíč do aplikace Wandee\n\nPodrobnosti si můžete přečíst v PDF nebo sledovat video.</item>
+        <item>Wandee vyžaduje kľúč API OpenAI na prístup k funkcii AI. Postupujte podľa nasledujúcich krokov.\n\n1. Otvorte internetový prehliadač a prejdite na https://openai.com\n2. Kliknite na menu a prihláste sa\n3. Vyberte API\n4. Nájdite ikonu zámku a kliknite na API keys\n5. Vytvorte nový tajný kľúč\n6. Zadajte tajný kľúč do aplikácie Wandee\n\nPodrobnosti si môžete prečítať v PDF alebo pozrieť video.</item>
+        <item>Wandee потребує ключ API OpenAI для доступу до функції ШІ. Будь ласка, виконайте наступні кроки.\n\n1. Відкрийте інтернет-браузер і перейдіть на https://openai.com\n2. Натисніть меню і ввійдіть у систему\n3. Виберіть API\n4. Знайдіть значок замка і натисніть API keys\n5. Створіть новий секретний ключ\n6. Введіть секретний ключ у додаток Wandee\n\nВи можете прочитати PDF або переглянути відео для отримання додаткової інформації.</item>
+        <item>Wandee necesită cheia API OpenAI pentru a accesa funcția AI. Vă rugăm să urmați pașii de mai jos.\n\n1. Deschideți browserul de internet și accesați https://openai.com\n2. Faceți clic pe meniul și autentificați-vă\n3. Selectați API\n4. Găsiți pictograma lacătului și faceți clic pe API keys\n5. Creați o cheie secretă nouă\n6. Introduceți cheia secretă în aplicația Wandee\n\nPuteți citi un PDF sau viziona un videoclip pentru mai multe detalii.</item>
+    </string-array>
+    <string-array name="welcome_text">
+        <item>สวัสดี เจ้านาย</item>
+        <item>Hello Master</item>
+        <item>您好，主人</item>
+        <item>こんにちは、ご主人様</item>
+        <item>Hai Tuan</item>
+        <item>Kumusta, Guro</item>
+        <item>Halo, Tuan</item>
+        <item>ສະບາຍດີ ພະນາຍົດ</item>
+        <item>안녕하세요, 주인님</item>
+        <item>Chào chủ nhân</item>
+        <item>Hola Maestro</item>
+        <item>Bonjour Maître</item>
+        <item>Hallo Meister</item>
+        <item>Ciao Padrone</item>
+        <item>Olá Mestre</item>
+        <item>Здравствуйте, хозяин</item>
+        <item>Hallo Meester</item>
+        <item>Hej Mästare</item>
+        <item>Hei Mester</item>
+        <item>Hej Mester</item>
+        <item>Hei Mestari</item>
+        <item>Witaj Panie</item>
+        <item>Merhaba Efendim</item>
+        <item>שלום אדוני</item>
+        <item>مرحبًا سيدي</item>
+        <item>سلام استاد</item>
+        <item>Szia, mester</item>
+        <item>Ahoj Mistře</item>
+        <item>Ahoj Majstre</item>
+        <item>Привіт, Майстре</item>
+        <item>Salut, Stăpâne</item>
+    </string-array>
+    <string-array name="hello_master">
+        <item>สวัสดี เจ้านาย</item>
+        <item>Hello Master</item>
+        <item>您好，主人</item>
+        <item>こんにちは、ご主人様</item>
+        <item>Hai Tuan</item>
+        <item>Kumusta, Guro</item>
+        <item>Halo, Tuan</item>
+        <item>ສະບາຍດີ ພະນາຍົດ</item>
+        <item>안녕하세요, 주인님</item>
+        <item>Chào chủ nhân</item>
+        <item>Hola Maestro</item>
+        <item>Bonjour Maître</item>
+        <item>Hallo Meister</item>
+        <item>Ciao Padrone</item>
+        <item>Olá Mestre</item>
+        <item>Здравствуйте, хозяин</item>
+        <item>Hallo Meester</item>
+        <item>Hej Mästare</item>
+        <item>Hei Mester</item>
+        <item>Hej Mester</item>
+        <item>Hei Mestari</item>
+        <item>Witaj Panie</item>
+        <item>Merhaba Efendim</item>
+        <item>שלום אדוני</item>
+        <item>مرحبًا سيدي</item>
+        <item>سلام استاد</item>
+        <item>Szia, mester</item>
+        <item>Ahoj Mistře</item>
+        <item>Ahoj Majstre</item>
+        <item>Привіт, Майстре</item>
+        <item>Salut, Stăpâne</item>
+    </string-array>
+    <string-array name="please_type">
+        <item>กรุณาพิมพ์ข้อความของคุณก่อน!</item>
+        <item>Please type your message first!</item>
+        <item>请先输入您的消息！</item>
+        <item>まずはメッセージを入力してください！</item>
+        <item>Sila taip mesej anda dahulu!</item>
+        <item>Pakisulat muna ang iyong mensahe!</item>
+        <item>Silakan ketik pesan Anda terlebih dahulu!</item>
+        <item>ກະລຸນາພິມຂໍ້ຄວາມກ່ອນ!</item>
+        <item>먼저 메시지를 입력해주세요!</item>
+        <item>Vui lòng nhập tin nhắn của bạn trước!</item>
+        <item>¡Por favor, escribe tu mensaje primero!</item>
+        <item>Veuillez taper d\'abord votre message !</item>
+        <item>Bitte geben Sie zuerst Ihre Nachricht ein!</item>
+        <item>Si prega di digitare prima il proprio messaggio!</item>
+        <item>Por favor, digite sua mensagem primeiro!</item>
+        <item>Сначала напишите ваше сообщение!</item>
+        <item>Typ eerst uw bericht!</item>
+        <item>Skriv ditt meddelande först!</item>
+        <item>Vennligst skriv meldingen din først!</item>
+        <item>Skriv venligst din besked først!</item>
+        <item>Kirjoita viestisi ensin!</item>
+        <item>Proszę najpierw napisać wiadomość!</item>
+        <item>Lütfen önce mesajınızı yazın!</item>
+        <item>נא להקליד קודם את ההודעה שלך!</item>
+        <item>من فضلك اكتب رسالتك أولاً!</item>
+        <item>لطفاً ابتدا پیام خود را تایپ کنید!</item>
+        <item>Kérjük, előbb írja meg üzenetét!</item>
+        <item>Nejprve zadejte svou zprávu!</item>
+        <item>Najprv napíšte svoju správu!</item>
+        <item>Будь ласка, спочатку введіть ваше повідомлення!</item>
+        <item>Vă rugăm să introduceți mesajul dvs. mai întâi!</item>
+    </string-array>
+    <string-array name="world_update_hint">
+        <item>สอบถามเกี่ยวกับสถานการณ์ปัจจุบันหรือราคาสินค้าล่าสุด</item>
+        <item>Inquire about the current situation or the latest product prices</item>
+        <item>询问当前情况或最新产品价格</item>
+        <item>現在の状況や最新の製品価格についてお問い合わせください</item>
+        <item>Pertanyaan tentang situasi semasa atau harga produk terkini</item>
+        <item>Magtanong tungkol sa kasalukuyang sitwasyon o pinakabagong presyo ng produkto</item>
+        <item>Ajukan pertanyaan tentang situasi saat ini atau harga produk terbaru</item>
+        <item>ສອງກັບສະຖານະປະຈຳຕົວຫຼືລາຄາສິນຄ້າໃຫມ່</item>
+        <item>현재 상황이나 최신 제품 가격에 대해 문의하십시오</item>
+        <item>Hỏi về tình hình hiện tại hoặc giá sản phẩm mới nhất</item>
+        <item>Consulte sobre la situación actual o los precios más recientes de los productos</item>
+        <item>Renseignez-vous sur la situation actuelle ou les derniers prix des produits</item>
+        <item>Erkundigen Sie sich nach der aktuellen Situation oder den neuesten Produktpreisen</item>
+        <item>Richiedi informazioni sulla situazione attuale o sui prezzi più recenti dei prodotti</item>
+        <item>Informe-se sobre a situação atual ou os preços mais recentes dos produtos</item>
+        <item>Узнайте о текущей ситуации или последних ценах на продукцию</item>
+        <item>Informeer naar de huidige situatie of de laatste productprijzen</item>
+        <item>Fråga om den aktuella situationen eller de senaste produktpriserna</item>
+        <item>Spør om den nåværende situasjonen eller de nyeste produktprisene</item>
+        <item>Forespørg om den nuværende situation eller de seneste produktpriser</item>
+        <item>Kysy nykytilanteesta tai viimeisimmistä tuotehinnoista</item>
+        <item>Zapytaj o obecną sytuację lub najnowsze ceny produktów</item>
+        <item>Mevcut durum hakkında bilgi alın veya en son ürün fiyatlarını sorun</item>
+        <item>שאל על המצב הנוכחי או על מחירי המוצר האחרונים</item>
+        <item>استفسر عن الوضع الحالي أو أحدث أسعار المنتجات</item>
+        <item>درباره وضعیت کنونی یا آخرین قیمت‌های محصولات استعلام کنید</item>
+        <item>Érdeklődjön a jelenlegi helyzetről vagy a legfrissebb termékek áráról</item>
+        <item>Informujte se o aktuální situaci nebo nejnovějších cenách produktů</item>
+        <item>Informujte sa o aktuálnej situácii alebo najnovších cenách produktov</item>
+        <item>Дізнайтеся про поточну ситуацію або останні ціни на продукцію</item>
+        <item>Întrebați despre situația actuală sau prețurile cele mai recente ale produselor</item>
+    </string-array>
+    <string-array name="text_size_display">
+        <item>สวัสดี เจ้านาย นี่คือหน้าตาของข้อความของคุณ</item>
+        <item>Hello master, this is the appearance of your message.</item>
+        <item>您好，主人，这是您的消息显示。</item>
+        <item>こんにちは、ご主人様。これがあなたのメッセージの外観です。</item>
+        <item>Hai Tuan, Ini adalah penampilan mesej anda.</item>
+        <item>Kumusta, Guro. Ito ang hitsura ng iyong mensahe.</item>
+        <item>Halo, Tuan. Ini adalah tampilan pesan Anda.</item>
+        <item>ສະບາຍດີ ພະນາຍົດ, ນີ້ແມ່ນລັກສະນະຂອງຂໍ້ຄວາມຂອງທ່ານ</item>
+        <item>안녕하세요, 주인님. 이것이 당신의 메시지 모양입니다.</item>
+        <item>Chào chủ nhân, đây là sự xuất hiện của tin nhắn của bạn.</item>
+        <item>Hola Maestro, esta es la apariencia de tu mensaje.</item>
+        <item>Bonjour Maître, voici l\'apparence de votre message.</item>
+        <item>Hallo Meister, dies ist das Aussehen Ihrer Nachricht.</item>
+        <item>Ciao Padrone, questo è l\'aspetto del tuo messaggio.</item>
+        <item>Olá Mestre, esta é a aparência da sua mensagem.</item>
+        <item>Здравствуйте, хозяин. Это внешний вид вашего сообщения.</item>
+        <item>Hallo Meester, dit is de weergave van uw bericht.</item>
+        <item>Hej Mästare, detta är ditt meddelandes utseende.</item>
+        <item>Hei Mester, dette er utseendet på meldingen din.</item>
+        <item>Hej Mester, dette er udseendet af din besked.</item>
+        <item>Hei Mestari, tässä on viestisi ulkonäkö.</item>
+        <item>Witaj Panie, oto wygląd Twojej wiadomości.</item>
+        <item>Merhaba Efendim, bu mesajınızın görünümü.</item>
+        <item>שלום אדוני, זו הופעת ההודעה שלך.</item>
+        <item>مرحبًا سيدي، هذه هي مظهر رسالتك.</item>
+        <item>سلام استاد، این ظاهر پیام شما است.</item>
+        <item>Szia, mester. Ez a üzeneted megjelenése.</item>
+        <item>Ahoj Mistře, toto je vzhled vaší zprávy.</item>
+        <item>Ahoj Majstre, toto je vzhľad vašej správy.</item>
+        <item>Привіт, Майстре, це зовнішній вигляд вашого повідомлення.</item>
+        <item>Salut, Stăpâne. Aceasta este apariția mesajului tău.</item>
+    </string-array>
+    <string-array name="no_database">
+        <item>ไม่มีข้อมูลพร้อมใช้งาน กลับไปที่หน้าหลักเพื่อถามคำถาม ระบบจะบันทึกคำถามและคำตอบของคุณไว้ที่นี่โดยอัตโนมัติ</item>
+        <item>No data available. Go back to the main page to ask a question. The system will store your questions and answers here automatically.</item>
+        <item>没有可用数据。返回主页提问。系统将自动将您的问题和答案存储在这里。</item>
+        <item>データがありません。質問をするにはメインページに戻ってください。システムはあなたの質問と回答を自動的にここに保存します。</item>
+        <item>Tiada data tersedia. Kembali ke halaman utama untuk bertanya soalan. Sistem akan menyimpan soalan dan jawapan anda di sini secara automatik.</item>
+        <item>Walang magagamit na data. Bumalik sa pangunahing pahina upang magtanong. Awtomatikong itatabi ng system ang iyong mga tanong at sagot dito.</item>
+        <item>Tidak ada data yang tersedia. Kembali ke halaman utama untuk mengajukan pertanyaan. Sistem akan menyimpan pertanyaan dan jawaban Anda di sini secara otomatis.</item>
+        <item>ບໍ່ມີຂໍ້ມູນທີ່ມີຢູ່. ກັບໄປຫນ້າຫລັກເພື່ອຖາມຄໍາຖາມ. ລະບົບຈະບັນທຶກຄໍາຖາມແລະຄໍາຕອບຂອງທ່ານຢູ່ທີ່ນີ້ໂດຍອັດຕະໂນມັດ.</item>
+        <item>데이터를 사용할 수 없습니다. 질문하려면 메인 페이지로 돌아가세요. 시스템은 여기에 질문과 답변을 자동으로 저장합니다.</item>
+        <item>Không có dữ liệu nào sẵn có. Quay lại trang chính để đặt câu hỏi. Hệ thống sẽ tự động lưu trữ các câu hỏi và câu trả lời của bạn ở đây.</item>
+        <item>No hay datos disponibles. Vuelve a la página principal para hacer una pregunta. El sistema almacenará automáticamente tus preguntas y respuestas aquí.</item>
+        <item>Aucune donnée disponible. Retournez à la page principale pour poser une question. Le système enregistrera automatiquement vos questions et réponses ici.</item>
+        <item>Keine Daten verfügbar. Kehren Sie zur Hauptseite zurück, um eine Frage zu stellen. Das System speichert Ihre Fragen und Antworten automatisch hier.</item>
+        <item>Nessun dato disponibile. Torna alla pagina principale per fare una domanda. Il sistema memorizzerà automaticamente le tue domande e risposte qui.</item>
+        <item>Não há dados disponíveis. Volte para a página principal para fazer uma pergunta. O sistema armazenará automaticamente suas perguntas e respostas aqui.</item>
+        <item>Нет доступных данных. Вернитесь на главную страницу, чтобы задать вопрос. Система автоматически сохранит ваши вопросы и ответы здесь.</item>
+        <item>Geen gegevens beschikbaar. Ga terug naar de hoofdpagina om een vraag te stellen. Het systeem slaat uw vragen en antwoorden automatisch hier op.</item>
+        <item>Inga data tillgängliga. Gå tillbaka till startsidan för att ställa en fråga. Systemet sparar automatiskt dina frågor och svar här.</item>
+        <item>Ingen data tilgjengelig. Gå tilbake til hovedsiden for å stille et spørsmål. Systemet lagrer automatisk spørsmålene og svarene dine her.</item>
+        <item>Ingen data tilgængelig. Gå tilbage til hovedsiden for at stille et spørgsmål. Systemet gemmer automatisk dine spørgsmål og svar her.</item>
+        <item>Ei dataa saatavilla. Palaa pääsivulle kysymyksen esittämiseksi. Järjestelmä tallentaa kysymyksesi ja vastauksesi automaattisesti tähän.</item>
+        <item>Brak dostępnych danych. Wróć do strony głównej, aby zadać pytanie. System automatycznie zapisze tutaj Twoje pytania i odpowiedzi.</item>
+        <item>Veri bulunamadı. Soru sormak için ana sayfaya dönün. Sistem sorularınızı ve cevaplarınızı burada otomatik olarak saklayacaktır.</item>
+        <item>אין נתונים זמינים. חזור לעמוד הבית כדי לשאול שאלה. המערכת תשמור את השאלות והתשובות שלך כאן באופן אוטומטי.</item>
+        <item>لا توجد بيانات متاحة. عد إلى الصفحة الرئيسية لطرح سؤال. سيقوم النظام بتخزين أسئلتك وإجاباتك هنا تلقائيًا.</item>
+        <item>اطلاعاتی در دسترس نیست. برای پرسیدن سوال به صفحه اصلی برگردید. سیستم به طور خودکار سوالات و پاسخ های شما را در اینجا ذخیره می کند.</item>
+        <item>Nincsenek elérhető adatok. Térjen vissza a főoldalra, hogy feltegyen egy kérdést. A rendszer automatikusan eltárolja itt a kérdéseit és a válaszokat.</item>
+        <item>Žádná data nejsou k dispozici. Vraťte se na domovskou stránku, abyste položili otázku. Systém automaticky uloží vaše otázky a odpovědi zde.</item>
+        <item>Žiadne dáta nie sú k dispozícii. Vráťte sa na domovskú stránku, aby ste položili otázku. Systém automaticky uloží vaše otázky a odpovede tu.</item>
+        <item>Дані недоступні. Поверніться на головну сторінку, щоб поставити запитання. Система автоматично збереже ваші запитання та відповіді тут.</item>
+        <item>Nu sunt disponibile date. Reveniți la pagina principală pentru a pune o întrebare. Sistemul va stoca automat întrebările și răspunsurile dvs. aici.</item>
+    </string-array>
+    <string-array name="no_image">
+        <item>ไม่มีภาพที่จะแสดง \n\nหน้านี้ใช้เก็บภาพที่คุณสร้างขึ้น คุณสามารถสร้างภาพแรกของคุณด้วยคำสั่ง imageGEN \n\nคุณสามารถกดกลับไปที่หน้าหลัก</item>
+        <item>There is no image to display. \n\nThis page use to store your generated image. You can generate your first image with imageGEN command. \n\nYou can press back to main page.</item>
+        <item>没有要显示的图像。 \n\n此页面用于存储您生成的图像。您可以使用 imageGEN 命令生成您的第一张图像。\n\n您可以按返回主页面。</item>
+        <item>表示する画像がありません。 \n\nこのページは生成された画像を保存するために使用されます。imageGEN コマンドを使用して最初の画像を生成できますが。 \n\nメインページに戻るには、戻るを押してください。</item>
+        <item>Tiada imej untuk dipaparkan. \n\nHalaman ini digunakan untuk menyimpan imej yang anda hasilkan. Anda boleh menghasilkan imej pertama anda dengan arahan imageGEN.\n\nAnda boleh tekan kembali ke halaman utama.</item>
+        <item>Walang imaheng ipapakita. \n\nAng pahinang ito ay ginagamit upang mag-imbak ng iyong nabuong imahe. Maaari kang lumikha ng iyong unang imahe gamit ang command na imageGEN.\n\nMaaari mong pindutin ang likod upang bumalik sa pangunahing pahina.</item>
+        <item>Tidak ada gambar untuk ditampilkan. \n\nHalaman ini digunakan untuk menyimpan gambar yang Anda buat. Anda dapat menghasilkan gambar pertama Anda dengan perintah imageGEN. Namun, Anda perlu memilih GPT Model: %1 atau %2 dalam pengaturan dan memasukkan OpenAI API Anda. \n\nAnda dapat menekan kembali ke halaman utama.</item>
+        <item>ບໍ່ມີພາບທີ່ຈະສະແດງ. \n\nໜ້ານີ້ໃຊ້ເກັບຮູບທີ່ທ່ານສ້າງຂຶ້ນ. ທ່ານສາມາດສ້າງຮູບປະຖົມຂອງທ່ານໄດ້ໂດຍຄຳສັ່ງ imageGEN. \n\nທ່ານສາມາດກົດກັບໄປທີ່ໜ້າຫຼັກ.</item>
+        <item>표시할 이미지가 없습니다. \n\n이 페이지는 생성된 이미지를 저장하는 데 사용됩니다. imageGEN 명령어를 사용하여 첫 번째 이미지를 생성할 수 있습니다. \n\n메인 페이지로 돌아가려면 뒤로 가기를 누르세요.</item>
+        <item>Không có hình ảnh để hiển thị. \n\nTrang này dùng để lưu trữ hình ảnh bạn đã tạo. Bạn có thể tạo hình ảnh đầu tiên của mình bằng lệnh imageGEN. \n\nBạn có thể nhấn quay lại trang chính.</item>
+        <item>No hay imagen para mostrar. \n\nEsta página se usa para almacenar tu imagen generada. Puedes generar tu primera imagen con el comando imageGEN. \n\nPuedes presionar regresar a la página principal.</item>
+        <item>Aucune image à afficher. \n\nCette page sert à stocker votre image générée. Vous pouvez générer votre première image avec la commande imageGEN. \n\nVous pouvez appuyer sur retour à la page principale.</item>
+        <item>Keine Bildanzeige verfügbar. \n\nDiese Seite dient zum Speichern Ihres generierten Bildes. Sie können Ihr erstes Bild mit dem Befehl imageGEN erstellen. \n\nSie können auf Zurück zur Hauptseite drücken.</item>
+        <item>Nessuna immagine da visualizzare. \n\nQuesta pagina serve per memorizzare l\'immagine generata. Puoi generare la tua prima immagine con il comando imageGEN. \n\nPuoi premere indietro per tornare alla pagina principale.</item>
+        <item>Nenhuma imagem disponível para exibição. \n\nEsta página é usada para armazenar a imagem que você gerou. Você pode gerar sua primeira imagem com o comando imageGEN. \n\nVocê pode pressionar voltar para a página principal.</item>
+        <item>Нет изображения для отображения. \n\nЭта страница используется для хранения вашего созданного изображения. Вы можете создать своё первое изображение с помощью команды imageGEN. \n\nВы можете нажать назад, чтобы вернуться на главную страницу.</item>
+        <item>Geen afbeelding om weer te geven. \n\nDeze pagina wordt gebruikt om uw gegenereerde afbeelding op te slaan. U kunt uw eerste afbeelding genereren met de imageGEN-opdracht. \n\nU kunt op terug naar de hoofdpagina drukken.</item>
+        <item>Ingen bild att visa. \n\nDenna sida används för att lagra din genererade bild. Du kan generera din första bild med kommandot imageGEN. \n\nDu kan trycka på tillbaka till huvudsidan.</item>
+        <item>Ingen bilde å vise. \n\nDenne siden brukes til å lagre det genererte bildet ditt. Du kan generere ditt første bilde med kommandoen imageGEN. \n\nDu kan trykke tilbake til hovedsiden.</item>
+        <item>Ingen billede at vise. \n\nDenne side bruges til at gemme dit genererede billede. Du kan generere dit første billede med imageGEN-kommandoen. \n\nDu kan trykke tilbage til hovedsiden.</item>
+        <item>Ei kuvaa näytettävissä. \n\nTätä sivua käytetään luodun kuvan tallentamiseen. Voit luoda ensimmäisen kuvasi imageGEN-komennolla. \n\nVoit painaa takaisin pääsivulle.</item>
+        <item>Brak obrazu do wyświetlenia. \n\nTa strona służy do przechowywania wygenerowanego obrazu. Możesz wygenerować swój pierwszy obraz za pomocą polecenia imageGEN. \n\nMożesz nacisnąć wstecz, aby wrócić do strony głównej.</item>
+        <item>Görüntülenecek resim yok. \n\nBu sayfa, oluşturduğunuz görüntüyü depolamak için kullanılır. imageGEN komutuyla ilk resminizi oluşturabilirsiniz. \n\nAna sayfaya dönmek için geri tuşuna basabilirsiniz.</item>
+        <item>אין תמונה להצגה. \n\nדף זה משמש לאחסון התמונה שיצרת. ניתן ליצור את התמונה הראשונה שלך באמצעות הפקודה imageGEN.</item>
+        <item>لا توجد صورة للعرض. \n\nتُستخدم هذه الصفحة لتخزين الصورة التي أنشأتها. يمكنك إنشاء صورتك الأولى باستخدام الأمر imageGEN.\n\nيمكنك الضغط على الرجوع إلى الصفحة الرئيسية.</item>
+        <item>هیچ تصویری برای نمایش وجود ندارد. \n\nاین صفحه برای ذخیره تصویر تولید شده شما استفاده می‌شود. می‌توانید با دستور imageGEN . \n\nمی‌توانید برای بازگشت به صفحه اصلی فشار دهید.</item>
+        <item>Nincs kép a megjelenítéshez. \n\nEz az oldal az Ön által generált képek tárolására szolgál. Az imageGEN parancs segítségével létrehozhatja első képét. \n\nVisszatérhet a főoldalra.</item>
+        <item>Není k dispozici žádný obrázek k zobrazení. \n\nTato stránka slouží k uložení vámi vygenerovaného obrázku. Můžete vytvořit svůj první obrázek pomocí příkazu imageGEN. \n\nMůžete stisknout zpět na hlavní stránku.</item>
+        <item>Nie je k dispozícii žiadny obrázok na zobrazenie. \n\nTáto stránka sa používa na uloženie vygenerovaného obrázka. Môžete vytvoriť svoj prvý obrázok pomocou príkazu imageGEN. \n\nMôžete stlačiť späť na hlavnej stránke.</item>
+        <item>Немає зображення для відображення. \n\nЦя сторінка використовується для зберігання створеного вами зображення. Ви можете створити своє перше зображення за допомогою команди imageGEN. \n\nВи можете натиснути, щоб повернутися на головну сторінку.</item>
+        <item>Nu există nicio imagine de afișat. \n\nAceastă pagină este utilizată pentru a stoca imaginea generată de dvs. Puteți genera prima dvs. imagine cu comanda imageGEN. \n\nPuteți apăsa înapoi pentru a reveni la pagina principală.</item>
+    </string-array>
+    <string-array name="mask">
+        <item>วาดหน้ากากเพื่อระบุพื้นที่ที่จะแทนที่ ปรับแถบเลื่อนเพื่อเปลี่ยนขนาดหน้ากาก</item>
+        <item>Draw a mask to indicate the areas to be replaced. Adjust the slider to change the mask size.</item>
+        <item>绘制蒙版以指示要替换的区域。调整滑块以更改蒙版大小。</item>
+        <item>置換する領域を示すマスクを描画します。スライダーを調整してマスクのサイズを変更します。</item>
+        <item>Lukiskan topeng untuk menunjukkan kawasan yang hendak digantikan. Laraskan gelangsar untuk menukar saiz topeng.</item>
+        <item>Gumuhit ng maskara para ipahiwatig ang mga lugar na papalitan. I-adjust ang slider para baguhin ang laki ng maskara.</item>
+        <item>Gambar masker untuk menunjukkan area yang akan diganti. Sesuaikan slider untuk mengubah ukuran masker.</item>
+        <item>ແຕ້ມໜ້າກາກເພື່ອຊີ້ບອກພື້ນທີ່ທີ່ຈະທົດແທນ. ປັບແຖບเลື່ອນເພື່ອປ່ຽນຂະໜາດໜ້າກາກ.</item>
+        <item>바꿀 영역을 나타내는 마스크를 그립니다. 슬라이더를 조정하여 마스크 크기를 변경합니다.</item>
+        <item>Vẽ mặt nạ để chỉ các vùng cần thay thế. Điều chỉnh thanh trượt để thay đổi kích thước mặt nạ.</item>
+        <item>Dibuje una máscara para indicar las áreas que se van a reemplazar. Ajuste el control deslizante para cambiar el tamaño de la máscara.</item>
+        <item>Dessinez un masque pour indiquer les zones à remplacer. Ajustez le curseur pour modifier la taille du masque.</item>
+        <item>Zeichnen Sie eine Maske, um die zu ersetzenden Bereiche zu markieren. Passen Sie den Schieberegler an, um die Maskengröße zu ändern.</item>
+        <item>Disegna una maschera per indicare le aree da sostituire. Regola il cursore per modificare la dimensione della maschera.</item>
+        <item>Desenhe uma máscara para indicar as áreas a serem substituídas. Ajuste o controle deslizante para alterar o tamanho da máscara.</item>
+        <item>Нарисуйте маску, чтобы указать области для замены. Отрегулируйте ползунок, чтобы изменить размер маски.</item>
+        <item>Teken een masker om de te vervangen gebieden aan te geven. Verstel de schuifregelaar om de masker grootte te wijzigen.</item>
+        <item>Rita en mask för att indikera de områden som ska ersättas. Justera skjutreglaget för att ändra maskens storlek.</item>
+        <item>Tegn en maske for å indikere områdene som skal erstattes. Juster glidebryteren for å endre maskestørrelsen.</item>
+        <item>Tegn en maske for at angive de områder, der skal udskiftes. Juster skyderen for at ændre maskestørrelsen.</item>
+        <item>Piirrä maski osoittamaan alueet, jotka korvataan. Säädä liukusäädintä maskin koon muuttamiseksi.</item>
+        <item>Narysuj maskę, aby wskazać obszary do zastąpienia. Dostosuj suwak, aby zmienić rozmiar maski.</item>
+        <item>Değiştirilecek alanları belirtmek için bir maske çizin. Maske boyutunu değiştirmek için sürgüyü ayarlayın.</item>
+        <item>שרטט מסכה כדי לציין את האזורים להחלפה. כייל את המחוון כדי לשנות את גודל המסכה.</item>
+        <item>ارسم قناعًا للإشارة إلى المناطق المراد استبدالها. اضبط شريط التمرير لتغيير حجم القناع.</item>
+        <item>برای نشان دادن مناطقی که باید جایگزین شوند، یک ماسک بکشید. برای تغییر اندازه ماسک، نوار لغزنده را تنظیم کنید.</item>
+        <item>Rajzoljon egy maszkot a cserélendő területek jelöléséhez. A maszk méretének módosításához állítsa be a csúszkát.</item>
+        <item>Nakreslete masku pro označení oblastí, které chcete nahradit. Velikost masky změníte pomocí posuvníku.</item>
+        <item>Nakreslite masku na označenie oblastí, ktoré chcete nahradiť. Veľkosť masky zmeníte pomocou posúvača.</item>
+        <item>Накресліть маску, щоб указати області для заміни. Відрегулюйте повзунок, щоб змінити розмір маски.</item>
+        <item>Desenați o mască pentru a indica zonele care vor fi înlocuite. Reglați cursorul pentru a modifica dimensiunea măștii.</item>
+    </string-array>
+    <string-array name="screen_height_insufficient">
+        <item>ความสูงของหน้าจอไม่เพียงพอที่จะแสดงขนาดภาพ %1 ได้อย่างถูกต้อง โปรดเปลี่ยนทิศทางหน้าจอหรือออกจากโหมดแยกหน้าจอ</item>
+        <item>Screen height is insufficient to display the image size %1 correctly. Please change screen orientation or exit split screen mode.</item>
+        <item>屏幕高度不足以正确显示图像大小 %1。请更改屏幕方向或退出分屏模式。</item>
+        <item>画面の高さが、画像サイズ %1 を正しく表示するには不十分です。画面の向きを変更するか、分割画面モードを終了してください。</item>
+        <item>Ketinggian skrin tidak mencukupi untuk memaparkan saiz imej %1 dengan betul. Sila tukar orientasi skrin atau keluar dari mod skrin berpecah.</item>
+        <item>Ang taas ng screen ay hindi sapat upang maipakita nang tama ang laki ng imahe na %1 Mangyaring baguhin ang oryentasyon ng screen o lumabas sa split screen mode.</item>
+        <item>Tinggi layar tidak cukup untuk menampilkan ukuran gambar %1 dengan benar. Harap ubah orientasi layar atau keluar dari mode layar terpisah.</item>
+        <item>ຄວາມສູງຂອງໜ້າຈໍບໍ່ພຽງພໍທີ່ຈະສະແດງຂະໜາດຮູບພາບ %1 ໄດ້ຢ່າງຖືກຕ້ອງ. ກະລຸນາປ່ຽນທິດທາງໜ້າຈໍຫຼືອອກຈາກໂໝດແບ່ງໜ້າຈໍ.</item>
+        <item>화면 높이가 이미지 크기 %1 를 올바르게 표시하기에 부족합니다. 화면 방향을 변경하거나 분할 화면 모드를 종료하세요.</item>
+        <item>Chiều cao màn hình không đủ để hiển thị kích thước hình ảnh %1 một cách chính xác. Vui lòng thay đổi hướng màn hình hoặc thoát khỏi chế độ chia màn hình.</item>
+        <item>La altura de la pantalla no es suficiente para mostrar correctamente el tamaño de la imagen %1. Por favor, cambie la orientación de la pantalla o salga del modo de pantalla dividida.</item>
+        <item>La hauteur de l\'écran est insuffisante pour afficher correctement la taille de l\'image %1. Veuillez changer l\'orientation de l\'écran ou quitter le mode écran partagé.</item>
+        <item>Die Bildschirmhöhe ist nicht ausreichend, um die Bildgröße %1 korrekt anzuzeigen. Bitte ändern Sie die Bildschirmorientierung oder beenden Sie den geteilten Bildschirm-Modus.</item>
+        <item>L altezza dello schermo non è sufficiente per visualizzare correttamente la dimensione dell immagine %1. Si prega di modificare l\'orientamento dello schermo o uscire dalla modalità schermo diviso.</item>
+        <item>A altura da tela não é suficiente para exibir o tamanho da imagem %1 corretamente. Por favor, altere a orientação da tela ou saia do modo de tela dividida.</item>
+        <item>Высота экрана недостаточна для правильного отображения размера изображения %1. Пожалуйста, измените ориентацию экрана или выйдите из режима разделенного экрана.</item>
+        <item>De scherphoogte is onvoldoende om de beeldgrootte %1 correct weer te geven. Wijzig de schermoriëntatie of verlaat de modus voor gesplitst scherm.</item>
+        <item>Skärmhöjden är otillräcklig för att visa bildstorleken %1 korrekt. Vänligen ändra skärmens orientering eller avsluta delat skärmsläge.</item>
+        <item>Skjermhøyden er ikke tilstrekkelig for å vise bildestørrelsen %1 riktig. Vennligst endre skjermens orientering eller avslutt delt skjermmodus.</item>
+        <item>Skærmens højde er utilstrækkelig til at vise billedstørrelsen %1 korrekt. Skift venligst skærmens orientering eller afslut delt skærmtilstand.</item>
+        <item>Näytön korkeus ei riitä näyttämään kuvan kokoa %1 oikein. Muuta näytön suuntaa tai poistu jaetun näytön tilasta.</item>
+        <item>Wysokość ekranu jest niewystarczająca, aby poprawnie wyświetlić rozmiar obrazu %1. Zmień orientację ekranu lub wyjdź z trybu podzielonego ekranu.</item>
+        <item>Ekran yüksekliği, görüntü boyutu %1 ı doğru bir şekilde görüntülemek için yetersiz. Lütfen ekran yönünü değiştirin veya bölünmüş ekran modundan çıkın.</item>
+        <item>גובה המסך אינו מספיק כדי להציג את גודל התמונה %1 כראוי. אנא שנה את כיוון המסך או צא ממצב מסך מפוצל.</item>
+        <item>ارتفاع الشاشة غير كافٍ لعرض حجم الصورة %1 بشكل صحيح. يرجى تغيير اتجاه الشاشة أو الخروج من وضع تقسيم الشاشة.</item>
+        <item>ارتفاع صفحه نمایش برای نمایش صحیح اندازه تصویر %1 کافی نیست. لطفا جهت صفحه نمایش را تغییر دهید یا از حالت صفحه تقسیم شده خارج شوید.</item>
+        <item>A képernyő magassága nem elegendő a %1 kép méretének helyes megjelenítéséhez. Kérjük, változtassa meg a képernyő irányát vagy lépjen ki a képernyő kettéosztás módjából.</item>
+        <item>Výška obrazovky není dostatečná pro správné zobrazení velikosti obrázku %1. Změňte prosím orientaci obrazovky nebo ukončete režim rozdělené obrazovky.</item>
+        <item>Výška obrazovky nestačí na správne zobrazenie veľkosti obrázka %1. Zmeňte prosím orientáciu obrazovky alebo ukončite režim rozdeleného zobrazenia.</item>
+        <item>Висота екрану недостатня для правильного відображення розміру зображення %1. Будь ласка, змініть орієнтацію екрана або вийдіть з режиму розділеного екрана.</item>
+        <item>Înălțimea ecranului este insuficientă pentru a afișa corect dimensiunea imaginii %1. Vă rugăm să schimbați orientarea ecranului sau să ieșiți din modul ecran divizat.</item>
+    </string-array>
+    <string-array name="already_drew">
+        <item>พื้นที่โปร่งใสของหน้ากากระบุตำแหน่งที่ควรแก้ไขภาพ และคำอธิบายควรอธิบายภาพใหม่ทั้งหมด ไม่ใช่แค่ส่วนที่ลบออก</item>
+        <item>The transparent areas of the mask indicate where the image should be edited, and the prompt should describe the full new image, not just the erased area.</item>
+        <item>蒙版的透明区域指示图像应在何处进行编辑，提示应描述完整的新图像，而不仅仅是擦除的区域。</item>
+        <item>マスクの透明な部分は、画像を編集する場所を示します。プロンプトは、消去された部分だけでなく、新しい画像全体を説明する必要があります。</item>
+        <item>Kawasan telus topeng menunjukkan tempat gambar perlu diedit, dan gesaan harus menerangkan gambar baharu yang lengkap, bukan hanya kawasan yang dipadamkan.</item>
+        <item>Ang mga transparent na lugar ng maskara ay nagpapahiwatig kung saan dapat i-edit ang larawan, at ang prompt ay dapat ilarawan ang buong bagong larawan, hindi lamang ang napunasan na lugar.</item>
+        <item>Area transparan dari masker menunjukkan di mana gambar harus diedit, dan prompt harus menggambarkan gambar baru secara keseluruhan, bukan hanya area yang terhapus.</item>
+        <item>ພື້ນທີ່ໂປ່ງໃສຂອງໜ້າກາກຊີ້ບອກບ່ອນທີ່ຄວນແກ້ໄຂຮູບພາບ, ແລະ ຄຳແນະນຳຄວນອະທິບາຍຮູບພາບໃໝ່ທັງໝົດ, ບໍ່ແມ່ນພຽງແຕ່ພື້ນທີ່ທີ່ຖືກລຶບອອກ.</item>
+        <item>마스크의 투명한 영역은 이미지를 편집해야 할 위치를 나타냅니다. 프롬프트는 지워진 영역뿐만 아니라 새로운 이미지 전체를 설명해야 합니다.</item>
+        <item>Các vùng trong suốt của mặt nạ cho biết nơi hình ảnh nên được chỉnh sửa, và lời nhắc nên mô tả toàn bộ hình ảnh mới, không chỉ vùng bị xóa.</item>
+        <item>Las áreas transparentes de la máscara indican dónde se debe editar la imagen, y el mensaje debe describir la imagen nueva completa, no solo el área borrada.</item>
+        <item>Les zones transparentes du masque indiquent où l\'image doit être modifiée, et l\'invite doit décrire la nouvelle image complète, pas seulement la zone effacée.</item>
+        <item>Die transparenten Bereiche der Maske zeigen an, wo das Bild bearbeitet werden soll, und die Aufforderung sollte das gesamte neue Bild beschreiben, nicht nur den gelöschten Bereich.</item>
+        <item>Le aree trasparenti della maschera indicano dove l\'immagine dovrebbe essere modificata, e il prompt dovrebbe descrivere la nuova immagine completa, non solo l\'area cancellata.</item>
+        <item>As áreas transparentes da máscara indicam onde a imagem deve ser editada, e o prompt deve descrever a nova imagem completa, não apenas a área apagada.</item>
+        <item>Прозрачные области маски указывают, где следует редактировать изображение, а подсказка должна описывать полное новое изображение, а не только удаленную область.</item>
+        <item>De transparante gebieden van het masker geven aan waar de afbeelding moet worden bewerkt, en de prompt moet de volledige nieuwe afbeelding beschrijven, niet alleen het gewiste gebied.</item>
+        <item>De transparenta områdena i masken indikerar var bilden ska redigeras, och prompten ska beskriva hela den nya bilden, inte bara det raderade området.</item>
+        <item>De transparente områdene i masken indikerer hvor bildet skal redigeres, og prompten bør beskrive hele det nye bildet, ikke bare det slettede området.</item>
+        <item>De transparente områder af masken angiver, hvor billedet skal redigeres, og prompten skal beskrive hele det nye billede, ikke kun det slettede område.</item>
+        <item>Maskin läpinäkyvät alueet osoittavat, missä kuvaa tulisi muokata, ja kehote tulisi kuvailla koko uutta kuvaa, ei pelkästään poistettua aluetta.</item>
+        <item>Przezroczyste obszary maski wskazują, gdzie należy edytować obraz, a podpowiedź powinna opisywać cały nowy obraz, a nie tylko usunięty obszar.</item>
+        <item>Maskenin şeffaf alanları, görüntünün nerede düzenlenmesi gerektiğini gösterir ve istem, sadece silinen alanı değil, tüm yeni görüntüyü açıklamalıdır.</item>
+        <item>האזורים השקופים של המסכה מציינים היכן יש לערוך את התמונה, וההנחיה צריכה לתאר את התמונה החדשה כולה, ולא רק את האזור שנמחק.</item>
+        <item>تشير المناطق الشفافة من القناع إلى مكان تحرير الصورة، ويجب أن تصف الموجهة الصورة الجديدة الكاملة، وليس فقط المنطقة المحذوفة.</item>
+        <item>مناطق شفاف ماسک نشان می‌دهد که تصویر باید در کجا ویرایش شود، و راهنما باید کل تصویر جدید را توصیف کند، نه فقط ناحیه پاک شده.</item>
+        <item>A maszk átlátszó területei jelzik, hogy hol kell szerkeszteni a képet, és a promptnak a teljes új képet kell leírnia, nem csak a törölt területet.</item>
+        <item>Průhledné oblasti masky označují, kde se má obraz upravovat, a výzva by měla popsat celý nový obraz, nejen vymazanou oblast.</item>
+        <item>Priehľadné oblasti masky označujú, kde sa má obrázok upravovať, a výzva by mala opísať celý nový obrázok, nielen vymazanú oblasť.</item>
+        <item>Прозорі області маски вказують, де слід редагувати зображення, а підказка має описувати повне нове зображення, а не лише видалену область.</item>
+        <item>Zonele transparente ale măștii indică unde ar trebui editată imaginea, iar promptul ar trebui să descrie întreaga imagine nouă, nu doar zona ștearsă.</item>
+    </string-array>
+    <string-array name="select_image">
+        <item>กรุณาเลือกภาพก่อน!</item>
+        <item>Please select image first!</item>
+        <item>请先选择图片！</item>
+        <item>まず画像を選択してください！</item>
+        <item>Sila pilih gambar terlebih dahulu!</item>
+        <item>Mangyaring pumili muna ng larawan!</item>
+        <item>Silakan pilih gambar terlebih dahulu!</item>
+        <item>ກະລຸນາເລືອກຮູບພາບກ່ອນ!</item>
+        <item>먼저 이미지를 선택해 주세요!</item>
+        <item>Vui lòng chọn ảnh trước!</item>
+        <item>¡Por favor, selecciona una imagen primero!</item>
+        <item>Veuillez sélectionner une image d\'abord!</item>
+        <item>Bitte wählen Sie zuerst ein Bild aus!</item>
+        <item>Seleziona prima un immagine!</item>
+        <item>Por favor, selecione uma imagem primeiro!</item>
+        <item>Пожалуйста, сначала выберите изображение!</item>
+        <item>Selecteer eerst een afbeelding!</item>
+        <item>Välj en bild först!</item>
+        <item>Vennligst velg et bilde først!</item>
+        <item>Vælg venligst et billede først!</item>
+        <item>Valitse ensin kuva!</item>
+        <item>Wybierz najpierw obraz!</item>
+        <item>Lütfen önce bir resim seçin!</item>
+        <item>בבקשה בחר תמונה קודם!</item>
+        <item>يرجى تحديد صورة أولاً!</item>
+        <item>لطفا ابتدا یک تصویر انتخاب کنید!</item>
+        <item>Kérjük, először válasszon képet!</item>
+        <item>Vyberte prosím nejprve obrázek!</item>
+        <item>Vyberte prosím najprv obrázok!</item>
+        <item>Будь ласка, спочатку виберіть зображення!</item>
+        <item>Vă rugăm să selectați o imagine mai întâi!</item>
+    </string-array>
+    <string-array name="select_image_detail">
+        <item>เลือกภาพจากแกลเลอรีเพื่อเริ่มการแก้ไขภาพ \nโปรดทราบว่าภาพจะถูกปรับขนาดโดยอัตโนมัติเป็นขนาดที่รองรับ (1024x1024, 512x512 หรือ 256x256) ในรูปแบบ PNG ก่อนการแก้ไข สำหรับผลลัพธ์ที่ดีที่สุด เลือกขนาดภาพสี่เหลี่ยมจัตุรัส 256x256 ขึ้นไป</item>
+        <item>Select image from the gallery to start image modification. \nPlease note that image are automatically resized to supported dimensions (1024x1024, 512x512, or 256x256) in PNG format before modification. For best results, select a square image size 256x256 and above.</item>
+        <item>从图库中选择图像以开始图像修改。\n请注意，图像在修改之前会自动调整为支持的尺寸 (1024x1024, 512x512 或 256x256) 的 PNG 格式。为了获得最佳效果，请选择方形图像大小 256x256 及以上。</item>
+        <item>ギャラリーから画像を選択して画像の変更を開始します。\n画像の変更前に、画像がサポートされているサイズ (1024x1024、512x512、または 256x256) に自動的にリサイズされ、PNG 形式に変換されることに注意してください。最適な結果を得るには、正方形の画像サイズを 256x256 以上にしてください。</item>
+        <item>Pilih gambar dari galeri untuk memulakan pengubahsuaian gambar. \nSila ambil perhatian bahawa gambar akan saiz semula secara automatik kepada dimensi yang disokong (1024x1024, 512x512, atau 256x256) dalam format PNG sebelum pengubahsuaian. Untuk hasil terbaik, pilih saiz gambar segi empat sama 256x256 dan ke atas.</item>
+        <item>Pumili ng larawan mula sa gallery upang simulan ang pagbabago ng larawan. \nMangyaring tandaan na ang mga larawan ay awtomatikong i-resize sa mga sinusuportahang dimensyon (1024x1024, 512x512, o 256x256) sa format na PNG bago baguhin. Para sa pinakamahusay na resulta, pumili ng isang parisukat na laki ng larawan na 256x256 pataas.</item>
+        <item>Pilih gambar dari galeri untuk memulai modifikasi gambar. \nHarap perhatikan bahwa gambar akan secara otomatis diubah ukurannya menjadi dimensi yang didukung (1024x1024, 512x512, atau 256x256) dalam format PNG sebelum modifikasi. Untuk hasil terbaik, pilih ukuran gambar persegi 256x256 dan ke atas.</item>
+        <item>ເລືອກຮູບພາບຈາກແກ້ລລີເພື່ອເລີ່ມຕົ້ນການແກ້ໄຂຮູບພາບ. \n ກະລຸນາສັງເກດວ່າຮູບພາບຈະຖືກປັບຂະໜາດໂດຍອັດຕະໂນມັດເປັນຂະໜາດທີ່ຮອງຮັບ (1024x1024, 512x512, ຫຼື 256x256) ໃນຮູບແບບ PNG ກ່ອນການແກ້ໄຂ. ສຳລັບຜົນໄດ້ຮັບທີ່ດີທີ່ສຸດ, ເລືອກຂະໜາດຮູບພາບສີ່ຫຼ່ຽມຈັດຕຸລັດ 256x256 ຂຶ້ນໄປ.</item>
+        <item>갤러리에서 이미지를 선택하여 이미지 수정을 시작합니다. \n이미지 수정 전에 이미지가 지원되는 크기(1024x1024, 512x512 또는 256x256)로 자동으로 크기가 조정되고 PNG 형식으로 변환된다는 점에 유의하세요. 최상의 결과를 얻으려면 정사각형 이미지 크기를 256x256 이상으로 선택하세요.</item>
+        <item>Chọn hình ảnh từ thư viện để bắt đầu sửa đổi hình ảnh. \nXin lưu ý rằng hình ảnh sẽ tự động được thay đổi kích thước thành kích thước được hỗ trợ (1024x1024, 512x512, hoặc 256x256) ở định dạng PNG trước khi sửa đổi. Để có kết quả tốt nhất, hãy chọn kích thước hình ảnh vuông 256x256 trở lên.</item>
+        <item>Selecciona una imagen de la galería para empezar a modificarla. \nTen en cuenta que las imágenes se redimensionan automáticamente a las dimensiones admitidas (1024x1024, 512x512 o 256x256) en formato PNG antes de la modificación. Para obtener los mejores resultados, selecciona un tamaño de imagen cuadrada de 256x256 o superior.</item>
+        <item>Sélectionnez une image dans la galerie pour commencer la modification de l\'image. \nVeuillez noter que les images sont automatiquement redimensionnées aux dimensions prises en charge (1024x1024, 512x512 ou 256x256) au format PNG avant la modification. Pour de meilleurs résultats, sélectionnez une taille d\'image carrée de 256x256 ou plus.</item>
+        <item>Wählen Sie ein Bild aus der Galerie aus, um mit der Bildbearbeitung zu beginnen. \nBitte beachten Sie, dass Bilder vor der Bearbeitung automatisch auf die unterstützten Dimensionen (1024x1024, 512x512 oder 256x256) im PNG-Format verkleinert werden. Für beste Ergebnisse wählen Sie eine quadratische Bildgröße von 256x256 oder größer.</item>
+        <item>Seleziona un immagine dalla galleria per iniziare la modifica dell immagine. \nSi prega di notare che le immagini vengono automaticamente ridimensionate alle dimensioni supportate (1024x1024, 512x512 o 256x256) in formato PNG prima della modifica. Per ottenere i migliori risultati, seleziona una dimensione dell immagine quadrata di 256x256 o superiore.</item>
+        <item>Selecione uma imagem da galeria para iniciar a modificação da imagem. \nObserve que as imagens serão redimensionadas automaticamente para as dimensões suportadas (1024x1024, 512x512 ou 256x256) no formato PNG antes da modificação. Para obter os melhores resultados, selecione um tamanho de imagem quadrado de 256x256 ou superior.</item>
+        <item>Выберите изображение из галереи, чтобы начать изменение изображения. \nОбратите внимание, что изображения автоматически масштабируются до поддерживаемых размеров (1024x1024, 512x512 или 256x256) в формате PNG перед изменением. Для достижения наилучших результатов выберите квадратный размер изображения 256x256 и выше.</item>
+        <item>Selecteer een afbeelding uit de galerij om te beginnen met het bewerken van de afbeelding. \nLet op: afbeeldingen worden automatisch verkleind tot de ondersteunde afmetingen (1024x1024, 512x512 of 256x256) in PNG-formaat voordat ze worden bewerkt. Voor de beste resultaten selecteert u een vierkante afbeelding met een grootte van 256x256 of groter.</item>
+        <item>Välj en bild från galleriet för att börja ändra bilden. \nObservera att bilderna automatiskt ändras till de stödda dimensionerna (1024x1024, 512x512 eller 256x256) i PNG-format innan ändringen. För bästa resultat, välj en kvadratisk bildstorlek på 256x256 eller större.</item>
+        <item>Velg et bilde fra galleriet for å starte endring av bildet. \nVær oppmerksom på at bildene automatisk skaleres til de støttede dimensjonene (1024x1024, 512x512 eller 256x256) i PNG-format før endring. For best resultat, velg en kvadratisk bildestørrelse på 256x256 eller større.</item>
+        <item>Vælg et billede fra galleriet for at starte ændring af billedet. \nBemærk venligst, at billederne automatisk skaleres til de understøttede dimensioner (1024x1024, 512x512 eller 256x256) i PNG-format før ændringen. For at få de bedste resultater, vælg en kvadratisk billedstørrelse på 256x256 eller større.</item>
+        <item>Valitse kuva galleriasta aloittaaksesi kuvan muokkaamisen. \nHuomaa, että kuvat skaalataan automaattisesti tuettuihin mittoihin (1024x1024, 512x512 tai 256x256) PNG-muodossa ennen muokkaamista. Parhaiden tulosten saavuttamiseksi valitse neliömäinen kuvan koko 256x256 tai suurempi.</item>
+        <item>Wybierz obraz z galerii, aby rozpocząć modyfikację obrazu. \nPamiętaj, że obrazy są automatycznie zmieniane rozmiarem do obsługiwanych wymiarów (1024x1024, 512x512 lub 256x256) w formacie PNG przed modyfikacją. Aby uzyskać najlepsze rezultaty, wybierz kwadratowy rozmiar obrazu 256x256 lub większy.</item>
+        <item>Görüntü değişikliğine başlamak için galeriden bir görüntü seçin. \nLütfen görüntülerin, değişiklikten önce desteklenen boyutlara (1024x1024, 512x512 veya 256x256) PNG formatında otomatik olarak yeniden boyutlandırılacağını unutmayın. En iyi sonuçlar için 256x256 veya daha büyük kare bir görüntü boyutu seçin.</item>
+        <item>בחר תמונה מהגלריה כדי להתחיל לשנות את התמונה. \nשים לב כי תמונות מותאמות גודל באופן אוטומטי לממדים הנתמכים (1024x1024, 512x512 או 256x256) בפורמט PNG לפני השינוי. לקבלת התוצאות הטובות ביותר, בחר בגודל תמונה מרובע של 256x256 או יותר.</item>
+        <item>اختر صورة من المعرض لبدء تعديل الصورة. \nيرجى ملاحظة أن الصور سيتم تغيير حجمها تلقائيًا إلى الأبعاد المدعومة (1024x1024، 512x512 أو 256x256) بتنسيق PNG قبل التعديل. للحصول على أفضل النتائج، اختر حجم صورة مربع 256x256 أو أكبر.</item>
+        <item>برای شروع اصلاح تصویر، از گالری یک تصویر انتخاب کنید. \nلطفاً توجه داشته باشید که تصاویر قبل از اصلاح، به طور خودکار به ابعاد پشتیبانی شده (1024x1024، 512x512 یا 256x256) در فرمت PNG تغییر اندازه می یابند. برای بهترین نتیجه، اندازه تصویر مربعی 256x256 یا بالاتر را انتخاب کنید.</item>
+        <item>Válasszon képet a galériából a kép módosításának megkezdéséhez. \nKérjük, vegye figyelembe, hogy a képek a módosítás előtt automatikusan átméreteződnek a támogatott dimenziókra (1024x1024, 512x512 vagy 256x256) PNG formátumban. A legjobb eredmény érdekében válasszon egy 256x256 vagy annál nagyobb négyzet alakú kép méretet.</item>
+        <item>Vyberte obrázek z galerie, abyste zahájili úpravu obrázku. \nVšimněte si, že obrázky se před úpravou automaticky zmenší na podporované rozměry (1024x1024, 512x512 nebo 256x256) ve formátu PNG. Pro nejlepší výsledky vyberte čtvercový obrázek o rozměrech 256x256 a výše.</item>
+        <item>Vyberte obrázok z galérie, aby ste začali upravovať obrázok. \nUpozorňujeme, že obrázky sa pred úpravou automaticky zmenšia na podporované rozmery (1024x1024, 512x512 alebo 256x256) vo formáte PNG. Pre najlepšie výsledky vyberte štvorcový obrázok s rozmermi 256x256 a vyššie.</item>
+        <item>Виберіть зображення з галереї, щоб розпочати редагування зображення. \nЗверніть увагу, що зображення автоматично змінюються до підтримуваних розмірів (1024x1024, 512x512 або 256x256) у форматі PNG перед редагуванням. Для найкращих результатів виберіть квадратний розмір зображення 256x256 або більше.</item>
+        <item>Selectați o imagine din galerie pentru a începe modificarea imaginii. \nRețineți că imaginile vor fi redimensionate automat la dimensiunile acceptate (1024x1024, 512x512 sau 256x256) în format PNG înainte de modificare. Pentru cele mai bune rezultate, selectați o dimensiune de imagine pătrată de 256x256 sau mai mare.</item>
+    </string-array>
+    <string-array name="image_mod_help">
+        <item>1) เลือกภาพจากแกลเลอรีที่มีขนาด 256x256 หรือใหญ่กว่า \n2) คุณสามารถส่งภาพโดยไม่ต้องมีคำอธิบายเพื่อสร้างความแปรผันของภาพ \n3) หรือวาดหน้ากากบนภาพเพื่อระบุพื้นที่ที่จะแทนที่ พื้นที่โปร่งใสของหน้ากากระบุตำแหน่งที่ควรแก้ไขภาพ และคำอธิบายควรอธิบายภาพใหม่ทั้งหมด \n4) คุณยังสามารถเลือกภาพที่มีหน้ากากและป้อนคำอธิบายได้ \n\n*ภาพจะถูกปรับขนาดและแปลงเป็นรูปแบบ PNG โดยอัตโนมัติ</item>
+        <item>1) Select an image from the gallery with a size of 256x256 or larger. \n2) You can send an image without a prompt to generate image variations. \n3) Alternatively, draw a mask on the image to indicate which areas should be replaced. The transparent areas of the mask indicate where the image should be edited, and the prompt should describe the entire new image. \n4) You can also select an image with a mask and enter a descriptive prompt. \n\n*The image will be automatically resized and converted to PNG format.</item>
+        <item>1) 从图库中选择一个大小为 256x256 或更大的图像。\n2) 你可以发送没有提示的图像来生成图像变体。\n3) 或者，在图像上绘制一个蒙版来指示哪些区域应该被替换。蒙版的透明区域指示图像应该在何处进行编辑，并且提示应该描述整个新图像。\n4) 你也可以选择一个带有蒙版的图像并输入描述性提示。\n\n*图像将自动调整大小并转换为 PNG 格式。</item>
+        <item>1) ギャラリーから 256x256 以上のサイズの画像を選択してください。\n2) プロンプトなしで画像を送信して画像のバリエーションを生成できます。\n3) または、画像にマスクを描画して、どの領域を置き換えるかを指定します。マスクの透明な部分は、画像を編集する場所を示します。プロンプトは、新しい画像全体を説明する必要があります。\n4) マスク付きの画像を選択して、説明的なプロンプトを入力することもできます。\n\n*画像は自動的にサイズ変更され、PNG 形式に変換されます。</item>
+        <item>1) Pilih gambar dari galeri dengan saiz 256x256 atau lebih besar. \n2) Anda boleh menghantar gambar tanpa gesaan untuk menjana variasi gambar. \n3) Sebagai alternatif, lukiskan topeng pada gambar untuk menunjukkan kawasan mana yang perlu digantikan. Kawasan telus topeng menunjukkan tempat gambar perlu diedit, dan gesaan harus menerangkan gambar baharu yang lengkap. \n4) Anda juga boleh memilih gambar dengan topeng dan memasukkan gesaan deskriptif. \n\n*Gambar akan saiz semula secara automatik dan ditukar kepada format PNG.</item>
+        <item>1) Pumili ng larawan mula sa gallery na may sukat na 256x256 o mas malaki. \n2) Maaari kang magpadala ng larawan nang walang prompt upang makabuo ng mga pagkakaiba-iba ng larawan. \n3) Bilang kahalili, gumuhit ng maskara sa larawan upang ipahiwatig kung aling mga lugar ang dapat palitan. Ang mga transparent na lugar ng maskara ay nagpapahiwatig kung saan dapat i-edit ang larawan, at ang prompt ay dapat ilarawan ang buong bagong larawan. \n4) Maaari ka ring pumili ng larawan na may maskara at magpasok ng isang naglalarawang prompt. \n\n*Ang larawan ay awtomatikong i-resize at iko-convert sa PNG format.</item>
+        <item>1) Pilih gambar dari galeri dengan ukuran 256x256 atau lebih besar. \n2) Anda dapat mengirimkan gambar tanpa prompt untuk menghasilkan variasi gambar. \n3) Atau, gambarlah masker pada gambar untuk menunjukkan area mana yang harus diganti. Area transparan dari masker menunjukkan di mana gambar harus diedit, dan prompt harus menggambarkan gambar baru secara keseluruhan. \n4) Anda juga dapat memilih gambar dengan masker dan memasukkan prompt deskriptif. \n\n*Gambar akan secara otomatis diubah ukurannya dan dikonversi ke format PNG.</item>
+        <item>1) ເລືອກຮູບພາບຈາກແກ້ລລີທີ່ມີຂະໜາດ 256x256 ຫຼືໃຫຍ່ກວ່າ. \n2) ທ່ານສາມາດສົ່ງຮູບພາບໂດຍບໍ່ມີຄຳແນະນຳເພື່ອສ້າງຄວາມແຕກຕ່າງຂອງຮູບພາບ. \n3) ຫຼື, ແຕ້ມໜ້າກາກໃສ່ຮູບພາບເພື່ອຊີ້ບອກວ່າບ່ອນໃດຄວນຖືກທົດແທນ. ພື້ນທີ່ໂປ່ງໃສຂອງໜ້າກາກຊີ້ບອກບ່ອນທີ່ຄວນແກ້ໄຂຮູບພາບ, ແລະ ຄຳແນະນຳຄວນອະທິບາຍຮູບພາບໃໝ່ທັງໝົດ. \n4) ທ່ານຍັງສາມາດເລືອກຮູບພາບທີ່ມີໜ້າກາກແລະປ້ອນຄຳແນະນຳທີ່ອະທິບາຍໄດ້. \n\n*ຮູບພາບຈະຖືກປັບຂະໜາດໂດຍອັດຕະໂນມັດແລະປ່ຽນເປັນຮູບແບບ PNG.</item>
+        <item>1) 갤러리에서 256x256 이상 크기의 이미지를 선택합니다. \n2) 이미지 변형을 생성하기 위해 프롬프트 없이 이미지를 보낼 수 있습니다. \n3) 또는 이미지에 마스크를 그려서 어떤 영역을 대체해야 하는지 표시합니다. 마스크의 투명한 영역은 이미지를 편집해야 할 위치를 나타냅니다. 프롬프트는 새로운 이미지 전체를 설명해야 합니다. \n4) 마스크가 있는 이미지를 선택하고 설명적인 프롬프트를 입력할 수도 있습니다. \n\n*이미지는 자동으로 크기가 조정되고 PNG 형식으로 변환됩니다.</item>
+        <item>1) Chọn một hình ảnh từ thư viện có kích thước 256x256 hoặc lớn hơn. \n2) Bạn có thể gửi một hình ảnh mà không cần lời nhắc để tạo ra các biến thể hình ảnh. \n3) Hoặc, vẽ một mặt nạ trên hình ảnh để chỉ ra những khu vực nào nên được thay thế. Các vùng trong suốt của mặt nạ cho biết nơi hình ảnh nên được chỉnh sửa, và lời nhắc nên mô tả toàn bộ hình ảnh mới. \n4) Bạn cũng có thể chọn một hình ảnh có mặt nạ và nhập lời nhắc mô tả. \n\n*Hình ảnh sẽ tự động được thay đổi kích thước và chuyển đổi sang định dạng PNG.</item>
+        <item>1) Selecciona una imagen de la galería con un tamaño de 256x256 o mayor. \n2) Puedes enviar una imagen sin prompt para generar variaciones de imagen. \n3) Alternativamente, dibuja una máscara en la imagen para indicar qué áreas deben ser reemplazadas. Las áreas transparentes de la máscara indican dónde se debe editar la imagen, y el mensaje debe describir la imagen nueva completa. \n4) También puedes seleccionar una imagen con una máscara e ingresar un prompt descriptivo. \n\n*La imagen se ajustará automáticamente de tamaño y se convertirá al formato PNG.</item>
+        <item>1) Sélectionnez une image de la galerie avec une taille de 256x256 ou plus. \n2) Vous pouvez envoyer une image sans invite pour générer des variations d\'image. \n3) Alternativement, dessinez un masque sur l\'image pour indiquer quelles zones doivent être remplacées. Les zones transparentes du masque indiquent où l\'image doit être modifiée, et l\'invite doit décrire la nouvelle image complète. \n4) Vous pouvez également sélectionner une image avec un masque et saisir une invite descriptive. \n\n*L image sera automatiquement redimensionnée et convertie au format PNG.</item>
+        <item>1) Wählen Sie ein Bild aus der Galerie mit einer Größe von 256x256 oder größer. \n2) Sie können ein Bild ohne Aufforderung senden, um Bildvariationen zu generieren. \n3) Alternativ können Sie eine Maske auf das Bild zeichnen, um anzugeben, welche Bereiche ersetzt werden sollen. Die transparenten Bereiche der Maske zeigen an, wo das Bild bearbeitet werden soll, und die Aufforderung sollte das gesamte neue Bild beschreiben. \n4) Sie können auch ein Bild mit einer Maske auswählen und eine beschreibende Aufforderung eingeben. \n\n*Das Bild wird automatisch in der Größe angepasst und in das PNG-Format konvertiert.</item>
+        <item>1) Seleziona un immagine dalla galleria con una dimensione di 256x256 o maggiore. \n2) Puoi inviare un immagine senza prompt per generare variazioni dell immagine. \n3) In alternativa, disegna una maschera sull immagine per indicare quali aree dovrebbero essere sostituite. Le aree trasparenti della maschera indicano dove l\'immagine dovrebbe essere modificata, e il prompt dovrebbe descrivere la nuova immagine completa. \n4) Puoi anche selezionare un immagine con una maschera e inserire un prompt descrittivo. \n\n*L immagine verrà automaticamente ridimensionata e convertita in formato PNG.</item>
+        <item>1) Selecione uma imagem da galeria com um tamanho de 256x256 ou maior. \n2) Você pode enviar uma imagem sem prompt para gerar variações de imagem. \n3) Alternativamente, desenhe uma máscara na imagem para indicar quais áreas devem ser substituídas. As áreas transparentes da máscara indicam onde a imagem deve ser editada, e o prompt deve descrever a nova imagem completa. \n4) Você também pode selecionar uma imagem com uma máscara e inserir um prompt descritivo. \n\n*A imagem será redimensionada automaticamente e convertida para o formato PNG.</item>
+        <item>1) Выберите изображение из галереи размером 256x256 или больше. \n2) Вы можете отправить изображение без подсказки, чтобы сгенерировать вариации изображения. \n3) В качестве альтернативы, нарисуйте маску на изображении, чтобы указать, какие области следует заменить. Прозрачные области маски указывают, где следует редактировать изображение, а подсказка должна описывать полное новое изображение. \n4) Вы также можете выбрать изображение с маской и ввести описательную подсказку. \n\n*Изображение будет автоматически масштабироваться и конвертироваться в формат PNG.</item>
+        <item>1) Selecteer een afbeelding uit de galerij met een grootte van 256x256 of groter. \n2) Je kunt een afbeelding zonder prompt verzenden om variaties van afbeeldingen te genereren. \n3) Als alternatief kun je een masker op de afbeelding tekenen om aan te geven welke gebieden moeten worden vervangen. De transparante gebieden van het masker geven aan waar de afbeelding moet worden bewerkt, en de prompt moet de volledige nieuwe afbeelding beschrijven. \n4) Je kunt ook een afbeelding met een masker selecteren en een beschrijvende prompt invoeren. \n\n*De afbeelding wordt automatisch verkleind en geconverteerd naar PNG-formaat.</item>
+        <item>1) Välj en bild från galleriet med en storlek på 256x256 eller större. \n2) Du kan skicka en bild utan prompt för att generera bildvariationer. \n3) Alternativt kan du rita en mask på bilden för att indikera vilka områden som ska ersättas. De transparenta områdena i masken indikerar var bilden ska redigeras, och prompten ska beskriva hela den nya bilden. \n4) Du kan också välja en bild med en mask och ange en beskrivande prompt. \n\n*Bilden kommer att automatiskt skalas om och konverteras till PNG-format.</item>
+        <item>1) Velg et bilde fra galleriet med en størrelse på 256x256 eller større. \n2) Du kan sende et bilde uten prompt for å generere variasjoner av bildet. \n3) Alternativt kan du tegne en maske på bildet for å indikere hvilke områder som skal erstattes. De transparente områdene i masken indikerer hvor bildet skal redigeres, og prompten bør beskrive hele det nye bildet. \n4) Du kan også velge et bilde med en maske og angi en beskrivende prompt. \n\n*Bildet vil bli automatisk skalert og konvertert til PNG-format.</item>
+        <item>1) Vælg et billede fra galleriet med en størrelse på 256x256 eller større. \n2) Du kan sende et billede uden prompt for at generere variationer af billedet. \n3) Alternativt kan du tegne en maske på billedet for at angive hvilke områder der skal udskiftes. De transparente områder af masken angiver, hvor billedet skal redigeres, og prompten skal beskrive hele det nye billede. \n4) Du kan også vælge et billede med en maske og indtaste en beskrivende prompt. \n\n*Billedet vil automatisk blive skaleret og konverteret til PNG-format.</item>
+        <item>1) Valitse kuva galleriasta, jonka koko on 256x256 tai suurempi. \n2) Voit lähettää kuvan ilman kehotetta ja luoda kuvan muunnelmia. \n3) Vaihtoehtoisesti voit piirtää maskin kuvan päälle osoittaaksesi, mitkä alueet tulisi korvata. Maskin läpinäkyvät alueet osoittavat, missä kuvaa tulisi muokata, ja kehote tulisi kuvailla koko uutta kuvaa. \n4) Voit myös valita kuvan maskilla ja syöttää kuvaavan kehotteen. \n\n*Kuva skaalataan automaattisesti ja muunnetaan PNG-muotoon.</item>
+        <item>1) Wybierz obraz z galerii o rozmiarze 256x256 lub większym. \n2) Możesz wysłać obraz bez podpowiedzi, aby wygenerować warianty obrazu. \n3) Alternatywnie możesz narysować maskę na obrazie, aby wskazać, które obszary należy zastąpić. Przezroczyste obszary maski wskazują, gdzie należy edytować obraz, a podpowiedź powinna opisywać cały nowy obraz. \n4) Możesz również wybrać obraz z maską i wprowadzić opisową podpowiedź. \n\n*Obraz zostanie automatycznie zmieniony rozmiarem i przekonwertowany do formatu PNG.</item>
+        <item>1) Galeri den 256x256 veya daha büyük bir boyutlu resim seçin. \n2) Görüntü varyasyonları oluşturmak için bir istem olmadan bir resim gönderebilirsiniz. \n3) Alternatif olarak, hangi alanların değiştirilmesi gerektiğini belirtmek için resimde bir maske çizin. Maskenin şeffaf alanları, görüntünün nerede düzenlenmesi gerektiğini gösterir ve istem, tüm yeni görüntüyü açıklamalıdır. \n4) Ayrıca, bir maskeyle birlikte bir resim seçip açıklayıcı bir istem de girebilirsiniz. \n\n*Resim otomatik olarak yeniden boyutlandırılacak ve PNG formatına dönüştürülecektir.</item>
+        <item>1) בחר תמונה מהגלריה בגודל 256x256 או יותר. \n2) אתה יכול לשלוח תמונה ללא הנחיה כדי לייצר וריאציות של תמונה. \n3) לחלופין, צייר מסכה על התמונה כדי לציין אילו אזורים יש להחליף. האזורים השקופים של המסכה מציינים היכן יש לערוך את התמונה, וההנחיה צריכה לתאר את התמונה החדשה כולה. \n4) אתה יכול גם לבחור תמונה עם מסכה ולהזין הנחיה תיאורית. \n\n*התמונה תותאם גודל באופן אוטומטי ותומר לפורמט PNG.</item>
+        <item>1) اختر صورة من المعرض بحجم 256x256 أو أكبر. \n2) يمكنك إرسال صورة بدون موجه لإنشاء اختلافات الصورة. \n3) بدلاً من ذلك، ارسم قناعًا على الصورة للإشارة إلى المناطق التي يجب استبدالها. تشير المناطق الشفافة من القناع إلى مكان تحرير الصورة، ويجب أن تصف الموجهة الصورة الجديدة الكاملة، وليس فقط المنطقة المحذوفة. \n4) يمكنك أيضًا اختيار صورة بقناع وإدخال موجه وصفية. \n\n*سيتم تغيير حجم الصورة تلقائيًا وتحويلها إلى تنسيق PNG.</item>
+        <item>1) یک تصویر با اندازه 256x256 یا بزرگتر از گالری انتخاب کنید. \n2) می توانید یک تصویر بدون راهنما ارسال کنید تا تغییرات تصویر را ایجاد کنید. \n3) به طور جایگزین، می توانید یک ماسک روی تصویر بکشید تا نشان دهید کدام مناطق باید جایگزین شوند. مناطق شفاف ماسک نشان می دهد که تصویر باید در کجا ویرایش شود، و راهنما باید کل تصویر جدید را توصیف کند، نه فقط ناحیه پاک شده. \n4) همچنین می توانید یک تصویر با ماسک انتخاب کنید و یک راهنما توصیفی وارد کنید. \n\n*تصویر به طور خودکار تغییر اندازه داده می شود و به فرمت PNG تبدیل می شود.</item>
+        <item>1) Válasszon egy képet a galériából, amelynek mérete 256x256 vagy nagyobb. \n2) Küldhet képet anélkül, hogy prompt lenne, hogy generáljon képi variációkat. \n3) Alternatívaként rajzoljon maszkot a képre, hogy jelezze, mely területeket kell cserélni. A maszk átlátszó területei jelzik, hogy hol kell szerkeszteni a képet, és a promptnak a teljes új képet kell leírnia, nem csak a törölt területet. \n4) Választhat képet maszkával, és beírhat egy leíró prompt-ot is. \n\n*A kép automatikusan átméreteződik és PNG formátumba konvertálódik.</item>
+        <item>1) Vyberte obrázek z galerie o velikosti 256x256 nebo větší. \n2) Můžete odeslat obrázek bez výzvy k vygenerování variant obrázku. \n3) Nebo nakreslete masku na obrázek, abyste označili oblasti, které se mají nahradit. Průhledné oblasti masky označují, kde se má obraz upravovat, a výzva by měla popsat celý nový obraz, nejen vymazanou oblast. \n4) Můžete také vybrat obrázek s maskou a zadat popisný prompt. \n\n*Obrázek se automaticky zmenší a převede do formátu PNG.</item>
+        <item>1) Vyberte obrázok z galérie s rozmermi 256x256 alebo väčšími. \n2) Môžete odoslať obrázok bez výzvy na vygenerovanie variácií obrázka. \n3) Alebo nakreslite masku na obrázok, aby ste označili oblasti, ktoré sa majú nahradiť. Priehľadné oblasti masky označujú, kde sa má obrázok upravovať, a výzva by mala opísať celý nový obrázok, nielen vymazanú oblasť. \n4) Môžete tiež vybrať obrázok s maskou a zadať popisný prompt. \n\n*Obrázok sa automaticky zmenší a prevedie do formátu PNG.</item>
+        <item>1) Виберіть зображення з галереї розміром 256x256 або більше. \n2) Ви можете надіслати зображення без підказки, щоб згенерувати варіації зображення. \n3) Як альтернативу, намалюйте маску на зображенні, щоб вказати, які області слід замінити. Прозорі області маски вказують, де слід редагувати зображення, а підказка має описувати повне нове зображення, а не лише видалену область. \n4) Ви також можете вибрати зображення з маскою та ввести описову підказку. \n\n*Зображення буде автоматично масштабовано та перетворено у формат PNG.</item>
+        <item>1) Selectați o imagine din galerie cu o dimensiune de 256x256 sau mai mare. \n2) Puteți trimite o imagine fără prompt pentru a genera variații ale imaginii. \n3) Alternativ, puteți desena o mască pe imagine pentru a indica zonele care ar trebui înlocuite. Zonele transparente ale măștii indică unde ar trebui editată imaginea, iar promptul ar trebui să descrie întreaga imagine nouă, nu doar zona ștearsă. \n4) De asemenea, puteți selecta o imagine cu o mască și introduceți un prompt descriptiv. \n\n*Imaginea va fi redimensionată automat și convertită în format PNG.</item>
+    </string-array>
+    <string-array name="file_processing">
+        <item>ป้อนคำถามเกี่ยวกับ %1 ให้กับแบบจำลอง AI</item>
+        <item>Prompt the AI model about the %1</item>
+        <item>向 AI 模型提示关于 %1 的信息。</item>
+        <item>AI モデルに %1 についてプロンプトします。</item>
+        <item>Berikan arahan kepada model AI tentang %1</item>
+        <item>Magbigay ng prompt sa AI model tungkol sa %1</item>
+        <item>Berikan prompt ke model AI tentang %1</item>
+        <item>ໃຫ້ຄໍາແນະນໍາກັບແບບຈໍາລອງ AI ກ່ຽວກັບ %1</item>
+        <item>AI 모델에 %1에 대한 프롬프트를 제공합니다.</item>
+        <item>Nhắc nhở mô hình AI về %1</item>
+        <item>Indica al modelo de IA sobre el %1</item>
+        <item>Donnez une instruction au modèle d\'IA concernant %1</item>
+        <item>Gib dem KI-Modell einen Prompt zu %1</item>
+        <item>Fornisci al modello di IA un prompt su %1</item>
+        <item>Dê um prompt ao modelo de IA sobre %1</item>
+        <item>Дайте AI-модели подсказку о %1</item>
+        <item>Geef het AI-model een prompt over %1</item>
+        <item>Ge en prompt till AI-modellen om %1</item>
+        <item>Gi AI-modellen en prompt om %1</item>
+        <item>Giv AI-modellen en prompt om %1</item>
+        <item>Anna AI-mallille kehote %1:stä.</item>
+        <item>Podaj AI modelowi monit o %1</item>
+        <item>AI modeline %1 hakkında bir istem gönderin.</item>
+        <item>הנח את מודל ה-AI לגבי %1.</item>
+        <item>اطلب من نموذج الذكاء الاصطناعي حول %1.</item>
+        <item>به مدل هوش مصنوعی در مورد %1 راهنمایی کنید.</item>
+        <item>Adj útmutatást az AI modellnek a %1-ről.</item>
+        <item>Zadejte AI modelu prompt o %1</item>
+        <item>Zadajte AI modelu prompt o %1</item>
+        <item>Надайте AI-моделі підказку про %1</item>
+        <item>Dați un prompt modelului AI despre %1</item>
+    </string-array>
+    <string-array name="inspire_text">
+        <item>## ฉันจะช่วยอะไรได้บ้าง?\n•**สร้างรูปภาพ🌄**\n•**สร้างเรื่องราว🧜‍♂️**\n•**เกม Text-based🎮**\n•**สรุปเอกสาร👨‍💻**\n•**แปลข้อความ🕵🏼**\n•**แปลงข้อความเป็นเสียงพูด🎤**\n•**ตรวจสอบรูปภาพ🍕**\n•**ตรวจสอบเสียง🎵**\n \n***เคล็ดลับ*** \n •***คลิกที่ไอคอนรูปภาพ 🌄 เพื่อเลือกภาพและถามเกี่ยวกับภาพนั้น*** \n •***คลิกที่ไอคอน AI เพื่อเลือกตัวละคร AI แต่ละ AI มีบุคลิกที่แตกต่างกัน คุณควรลอง*** ✌️</item>
+        <item>## What can I help with?\n•**Create image🌄**\n•**Create story🧜‍♂️**\n•**Text-based Game🎮**\n•**Summarize document👨‍💻**\n•**Translate text🕵🏼**\n•**Text-to-speech🎤**\n•**Verify image🍕**\n•**Verify audio🎵**\n \n***Tips*** \n •***Click at picture icon 🌄 to select picture and ask about that picture*** \n  •***Click at AI icon to select AI character, each AI has different personality. You should try*** ✌️</item>
+        <item>## 我能帮上什么忙？\n•**创建图像🌄**\n•**创作故事🧜‍♂️**\n•**文字游戏🎮**\n•**总结文档👨‍💻**\n•**翻译文本🕵🏼**\n•**文字转语音🎤**\n•**验证图像🍕**\n•**验证音频🎵**\n \n***小贴士*** \n •***点击图片图标 🌄 选择图片并询问有关该图片的问题***\n •***点击 AI 图标选择 AI 角色，每个 AI 都有不同的个性。你应该试试***✌️</item>
+        <item>## 何をお手伝いしましょうか？\n•**画像を作成🌄**\n•**物語を作成🧜‍♂️**\n•**テキストベースのゲーム🎮**\n•**ドキュメントの要約👨‍💻**\n•**テキストの翻訳🕵🏼**\n•**音声合成🎤**\n•**画像の検証🍕**\n•**音声の検証🎵**\n \n***ヒント*** \n •***写真アイコン 🌄 をクリックして写真を選択し、その写真について質問してください***\n •***AI アイコンをクリックして AI キャラクターを選択してください。各 AI は異なる個性を持っています。試してみるべきです。***✌️</item>
+        <item>## Apa yang boleh saya bantu?\n•**Cipta imej🌄**\n•**Cipta cerita🧜‍♂️**\n•**Permainan berasaskan teks🎮**\n•**Ringkaskan dokumen👨‍💻**\n•**Terjemah teks🕵🏼**\n•**Teks-ke-ucapan🎤**\n•**Sahkan imej🍕**\n•**Sahkan audio🎵**\n \n***Petua*** \n •***Klik ikon gambar 🌄 untuk memilih gambar dan bertanya tentang gambar itu***\n •***Klik ikon AI untuk memilih watak AI, setiap AI mempunyai personaliti yang berbeza. Anda harus mencuba***✌️</item>
+        <item>## Ano ang maitutulong ko?\n•**Gumawa ng larawan🌄**\n•**Gumawa ng kwento🧜‍♂️**\n•**Text-based na Laro🎮**\n•**Lagumin ang dokumento👨‍💻**\n•**Isalin ang teksto🕵🏼**\n•**Text-to-speech🎤**\n•**I-verify ang larawan🍕**\n•**I-verify ang audio🎵**</item>
+        <item>## Apa yang bisa saya bantu?\n•**Buat gambar🌄**\n•**Buat cerita🧜‍♂️**\n•**Game berbasis teks🎮**\n•**Ringkas dokumen👨‍💻**\n•**Terjemahkan teks🕵🏼**\n•**Text-to-speech🎤**\n•**Verifikasi gambar🍕**\n•**Verifikasi audio🎵**</item>
+        <item>## ຂ້ອຍສາມາດຊ່ວຍຫຍັງໄດ້ແດ່?\n•**ສ້າງຮູບພາບ🌄**\n•**ສ້າງເລື່ອງ🧜‍♂️**\n•**ເກມໂດຍອີງໃສ່ຂໍ້ຄວາມ🎮**\n•**ສະຫຼຸບເອກະສານ👨‍💻**\n•**ແປຂໍ້ຄວາມ🕵🏼**\n•**ຂໍ້ຄວາມເປັນສຽງເວົ້າ🎤**\n•**ກວດສອບຮູບພາບ🍕**\n•**ກວດສອບສຽງ🎵**</item>
+        <item>## 무엇을 도와드릴까요?\n•**이미지 만들기🌄**\n•**스토리 만들기🧜‍♂️**\n•**텍스트 기반 게임🎮**\n•**문서 요약👨‍💻**\n•**텍스트 번역🕵🏼**\n•**텍스트 음성 변환🎤**\n•**이미지 확인🍕**\n•**오디오 확인🎵**</item>
+        <item>## Tôi có thể giúp gì?\n•**Tạo hình ảnh🌄**\n•**Tạo truyện🧜‍♂️**\n•**Trò chơi văn bản🎮**\n•**Tóm tắt tài liệu👨‍💻**\n•**Dịch văn bản🕵🏼**\n•**Chuyển văn bản thành giọng nói🎤**\n•**Xác minh hình ảnh🍕**\n•**Xác minh âm thanh🎵**</item>
+        <item>## ¿En qué puedo ayudarte?\n•**Crear imagen🌄**\n•**Crear historia🧜‍♂️**\n•**Juego de texto🎮**\n•**Resumir documento👨‍💻**\n•**Traducir texto🕵🏼**\n•**Texto a voz🎤**\n•**Verificar imagen🍕**\n•**Verificar audio🎵**</item>
+        <item>## Comment puis-je vous aider ?\n•**Créer une image🌄**\n•**Créer une histoire🧜‍♂️**\n•**Jeu textuel🎮**\n•**Résumer un document👨‍💻**\n•**Traduire du texte🕵🏼**\n•**Synthèse vocale🎤**\n•**Vérifier une image🍕**\n•**Vérifier l\'audio🎵**</item>
+        <item>## Wie kann ich helfen?\n•**Bild erstellen🌄**\n•**Geschichte erstellen🧜‍♂️**\n•**Textbasiertes Spiel🎮**\n•**Dokument zusammenfassen👨‍💻**\n•**Text übersetzen🕵🏼**\n•**Text-zu-Sprache🎤**\n•**Bild überprüfen🍕**\n•**Audio überprüfen🎵**</item>
+        <item>## Come posso aiutarti?\n•**Crea immagine🌄**\n•**Crea storia🧜‍♂️**\n•**Gioco di testo🎮**\n•**Riepiloga documento👨‍💻**\n•**Traduci testo🕵🏼**\n•**Sintesi vocale🎤**\n•**Verifica immagine🍕**\n•**Verifica audio🎵**</item>
+        <item>## Como posso ajudar?\n•**Criar imagem🌄**\n•**Criar história🧜‍♂️**\n•**Jogo baseado em texto🎮**\n•**Resumir documento👨‍💻**\n•**Traduzir texto🕵🏼**\n•**Texto para fala🎤**\n•**Verificar imagem🍕**\n•**Verificar áudio🎵**</item>
+        <item>## Чем могу помочь?\n•**Создать изображение🌄**\n•**Создать рассказ🧜‍♂️**\n•**Текстовая игра🎮**\n•**Суммировать документ👨‍💻**\n•**Перевести текст🕵🏼**\n•**Текст в речь🎤**\n•**Проверить изображение🍕**\n•**Проверить аудио🎵**</item>
+        <item>## Waarmee kan ik je helpen?\n•**Afbeelding maken🌄**\n•**Verhaal maken🧜‍♂️**\n•**Tekstgebaseerde game🎮**\n•**Document samenvatten👨‍💻**\n•**Tekst vertalen🕵🏼**\n•**Tekst-naar-spraak🎤**\n•**Afbeelding verifiëren🍕**\n•**Audio verifiëren🎵**</item>
+        <item>## Vad kan jag hjälpa till med?\n•**Skapa bild🌄**\n•**Skapa berättelse🧜‍♂️**\n•**Textbaserat spel🎮**\n•**Sammanfatta dokument👨‍💻**\n•**Översätt text🕵🏼**\n•**Text till tal🎤**\n•**Verifiera bild🍕**\n•**Verifiera ljud🎵**</item>
+        <item>## Hva kan jeg hjelpe deg med?\n•**Lag bilde🌄**\n•**Lag historie🧜‍♂️**\n•**Tekstbasert spill🎮**\n•**Oppsummer dokument👨‍💻**\n•**Oversett tekst🕵🏼**\n•**Tekst til tale🎤**\n•**Bekreft bilde🍕**\n•**Bekreft lyd🎵**</item>
+        <item>## Hvad kan jeg hjælpe med?\n•**Opret billede🌄**\n•**Opret historie🧜‍♂️**\n•**Tekstbaseret spil🎮**\n•**Opsummér dokument👨‍💻**\n•**Oversæt tekst🕵🏼**\n•**Tekst til tale🎤**\n•**Bekræft billede🍕**\n•**Bekræft lyd🎵**</item>
+        <item>## Miten voin auttaa?\n•**Luo kuva🌄**\n•**Luo tarina🧜‍♂️**\n•**Tekstipohjainen peli🎮**\n•**Tee yhteenveto dokumentista👨‍💻**\n•**Käännä teksti🕵🏼**\n•**Tekstistä puheeksi🎤**\n•**Vahvista kuva🍕**\n•**Vahvista ääni🎵**</item>
+        <item>## W czym mogę pomóc?\n•**Utwórz obraz🌄**\n•**Utwórz historię🧜‍♂️**\n•**Gra tekstowa🎮**\n•**Streszczenie dokumentu👨‍💻**\n•**Przetłumacz tekst🕵🏼**\n•**Zamiana tekstu na mowę🎤**\n•**Zweryfikuj obraz🍕**\n•**Zweryfikuj dźwięk🎵**</item>
+        <item>## Neye yardımcı olabilirim?\n•**Görüntü oluştur🌄**\n•**Hikaye oluştur🧜‍♂️**\n•**Metin tabanlı oyun🎮**\n•**Belgeyi özetle👨‍💻**\n•**Metni çevir🕵🏼**\n•**Metinden konuşmaya🎤**\n•**Görüntüyü doğrula🍕**\n•**Sesi doğrula🎵**</item>
+        <item>## במה אוכל לעזור?\n•**צור תמונה🌄**\n•**צור סיפור🧜‍♂️**\n•**משחק מבוסס טקסט🎮**\n•**סכם מסמך👨‍💻**\n•**תרגם טקסט🕵🏼**\n•**טקסט לדיבור🎤**\n•**אמת תמונה🍕**\n•**אמת אודיו🎵**</item>
+        <item>## بماذا يمكنني مساعدتك؟\n•**إنشاء صورة🌄**\n•**إنشاء قصة🧜‍♂️**\n•**لعبة نصية🎮**\n•**تلخيص مستند👨‍💻**\n•**ترجمة نص🕵🏼**\n•**تحويل النص إلى كلام🎤**\n•**التحقق من الصورة🍕**\n•**التحقق من الصوت🎵**</item>
+        <item>## چطور میتونم کمکتون کنم؟\n•**ایجاد تصویر🌄**\n•**ساخت داستان🧜‍♂️**\n•**بازی متنی🎮**\n•**خلاصه سازی سند👨‍💻**\n•**ترجمه متن🕵🏼**\n•**تبدیل متن به گفتار🎤**\n•**تأیید تصویر🍕**\n•**تأیید صدا🎵**</item>
+        <item>## Miben segíthetek?\n•**Kép létrehozása🌄**\n•**Történet létrehozása🧜‍♂️**\n•**Szöveges játék🎮**\n•**Dokumentum összefoglalása👨‍💻**\n•**Szöveg fordítása🕵🏼**\n•**Szövegfelolvasás🎤**\n•**Kép ellenőrzése🍕**\n•**Hang ellenőrzése🎵**</item>
+        <item>## S čím vám mohu pomoci?\n•**Vytvořit obrázek🌄**\n•**Vytvořit příběh🧜‍♂️**\n•**Textová hra🎮**\n•**Shrnout dokument👨‍💻**\n•**Přeložit text🕵🏼**\n•**Přečíst text nahlas🎤**\n•**Ověřit obrázek🍕**\n•**Ověřit zvuk🎵**</item>
+        <item>## S čím vám môžem pomôcť?\n•**Vytvoriť obrázok🌄**\n•**Vytvoriť príbeh🧜‍♂️**\n•**Textová hra🎮**\n•**Zhrnúť dokument👨‍💻**\n•**Preložiť text🕵🏼**\n•**Prečítať text nahlas🎤**\n•**Overiť obrázok🍕**\n•**Overiť zvuk🎵**</item>
+        <item>## Чим можу допомогти?\n•**Створити зображення🌄**\n•**Створити оповідання🧜‍♂️**\n•**Текстова гра🎮**\n•**Підсумувати документ👨‍💻**\n•**Перекласти текст🕵🏼**\n•**Текст у мову🎤**\n•**Перевірити зображення🍕**\n•**Перевірити аудіо🎵**</item>
+        <item>## Cu ce te pot ajuta?\n•**Creează o imagine🌄**\n•**Creează o poveste🧜‍♂️**\n•**Joc bazat pe text🎮**\n•**Rezumă documentul👨‍💻**\n•**Traduce textul🕵🏼**\n•**Text în vorbire🎤**\n•**Verifică imaginea🍕**\n•**Verifică sunetul🎵**</item>
+    </string-array>
+    <string-array name="file_search_help">
+        <item>การค้นหาไฟล์ช่วยให้ผู้ช่วยมีข้อมูลจากไฟล์ที่คุณหรือผู้ใช้ของคุณอัปโหลด เมื่ออัปโหลดไฟล์แล้ว ผู้ช่วยจะตัดสินใจโดยอัตโนมัติว่าเมื่อใดควรดึงเนื้อหาตามคำขอของผู้ใช้</item>
+        <item>File search enables the assistant with knowledge from files that you or your users upload. Once a file is uploaded, the assistant automatically decides when to retrieve content based on user requests.</item>
+        <item>文件搜索使助手能够从您或您的用户上传的文件中获取知识。文件上传后，助手会根据用户请求自动决定何时检索内容。</item>
+        <item>ファイル検索により、アシスタントは、あなたまたはユーザーがアップロードしたファイルから知識を得ることができます。ファイルがアップロードされると、アシスタントはユーザーの要求に基づいて、いつコンテンツを取得するかを自動的に判断します。</item>
+        <item>Carian fail membolehkan pembantu dengan pengetahuan dari fail yang anda atau pengguna anda muat naik. Setelah fail dimuat naik, pembantu secara automatik menentukan bila untuk mendapatkan kandungan berdasarkan permintaan pengguna.</item>
+        <item>Ang paghahanap ng file ay nagbibigay-daan sa katulong na magkaroon ng kaalaman mula sa mga file na iyong o ng iyong mga user na ini-upload. Kapag na-upload na ang isang file, awtomatikong magdedesisyon ang katulong kung kailan kukunin ang nilalaman batay sa mga kahilingan ng user.</item>
+        <item>Pencarian file memungkinkan asisten untuk mendapatkan pengetahuan dari file yang Anda atau pengguna Anda unggah. Setelah file diunggah, asisten secara otomatis memutuskan kapan untuk mengambil konten berdasarkan permintaan pengguna.</item>
+        <item>ການຄົ້ນຫາໄຟລ໌ຊ່ວຍໃຫ້ຜູ້ຊ່ວຍມີຄວາມຮູ້ຈາກໄຟລ໌ທີ່ທ່ານຫຼືຜູ້ໃຊ້ຂອງທ່ານອັບໂຫລດ. ເມື່ອໄຟລ໌ຖືກອັບໂຫລດ, ຜູ້ຊ່ວຍຈະຕັດສິນໃຈໂດຍອັດຕະໂນມັດວ່າເມື່ອໃດຄວນດຶງເນື້ອຫາໂດຍອີງຕາມຄໍາຮ້ອງຂໍຂອງຜູ້ໃຊ້.</item>
+        <item>파일 검색을 통해 어시스턴트는 사용자 또는 사용자의 파일에서 업로드한 파일의 지식을 얻을 수 있습니다. 파일이 업로드되면 어시스턴트는 사용자 요청에 따라 콘텐츠를 언제 검색할지 자동으로 결정합니다.</item>
+        <item>Tìm kiếm tệp cho phép trợ lý có được kiến thức từ các tệp mà bạn hoặc người dùng của bạn tải lên. Sau khi tệp được tải lên, trợ lý tự động quyết định khi nào cần truy xuất nội dung dựa trên yêu cầu của người dùng.</item>
+        <item>La búsqueda de archivos permite que el asistente tenga conocimiento de los archivos que tú o tus usuarios cargan. Una vez que se carga un archivo, el asistente decide automáticamente cuándo recuperar el contenido en función de las solicitudes del usuario.</item>
+        <item>La recherche de fichiers permet à l\'assistant d\'avoir accès aux connaissances contenues dans les fichiers que vous ou vos utilisateurs chargez. Une fois un fichier chargé, l\'assistant décide automatiquement quand récupérer le contenu en fonction des demandes des utilisateurs.</item>
+        <item>Die Dateisuche ermöglicht es dem Assistenten, auf Wissen aus Dateien zuzugreifen, die von Ihnen oder Ihren Benutzern hochgeladen werden. Sobald eine Datei hochgeladen wurde, entscheidet der Assistent automatisch, wann Inhalte basierend auf Benutzeranfragen abgerufen werden sollen.</item>
+        <item>La ricerca di file consente all assistente di acquisire conoscenza dai file che tu o i tuoi utenti carichi. Una volta caricato un file, l\'assistente decide automaticamente quando recuperare il contenuto in base alle richieste dell utente.</item>
+        <item>A pesquisa de arquivos permite que o assistente tenha conhecimento dos arquivos que você ou seus usuários carregam. Depois que um arquivo é carregado, o assistente decide automaticamente quando recuperar o conteúdo com base nas solicitações do usuário.</item>
+        <item>Поиск файлов позволяет помощнику получать знания из файлов, которые вы или ваши пользователи загружают. После того как файл загружен, помощник автоматически решает, когда извлекать контент на основе запросов пользователей.</item>
+        <item>Zoeken in bestanden stelt de assistent in staat om kennis te vergaren uit bestanden die door u of uw gebruikers worden geüpload. Zodra een bestand is geüpload, beslist de assistent automatisch wanneer content moet worden opgehaald op basis van gebruikersverzoeken.</item>
+        <item>Filsökning möjliggör för assistenten att ha tillgång till kunskaper från filer som du eller dina användare laddar upp. När en fil har laddats upp, bestämmer assistenten automatiskt när innehåll ska hämtas baserat på användarförfrågningar.</item>
+        <item>Filleting gjør det mulig for assistenten å ha tilgang til kunnskap fra filer som du eller dine brukere laster opp. Når en fil er lastet opp, bestemmer assistenten automatisk når innhold skal hentes ut basert på brukerforespørsler.</item>
+        <item>Filsøgning gør det muligt for assistenten at få adgang til viden fra filer, som du eller dine brugere uploader. Når en fil er blevet uploadet, beslutter assistenten automatisk, hvornår indhold skal hentes baseret på brugerforespørgsler.</item>
+        <item>Tiedostonhaun avulla avustaja voi hankkia tietoa tiedostoista, joita sinä tai käyttäjät lataavat. Kun tiedosto on ladattu, avustaja päättää automaattisesti, milloin hakea sisältöä käyttäjän pyyntöjen perusteella.</item>
+        <item>Wyszukiwanie plików umożliwia asystentowi dostęp do wiedzy z plików, które Ty lub Twoi użytkownicy przesyłają. Po przesłaniu pliku asystent automatycznie decyduje, kiedy pobrać zawartość na podstawie żądań użytkowników.</item>
+        <item>Dosya arama, sizin veya kullanıcılarınızın yüklediği dosyalardan gelen bilgilerle asistana bilgi sağlar. Bir dosya yüklendikten sonra, asistan kullanıcının isteklerine göre içeriği ne zaman alacağına otomatik olarak karar verir.</item>
+        <item>חיפוש קבצים מאפשר לעוזר לקבל ידע מקבצים שאתה או המשתמשים שלך מעלים. לאחר העלאת קובץ, העוזר מחליט באופן אוטומטי מתי לאחזר תוכן בהתבסס על בקשות המשתמשים.</item>
+        <item>تمكين بحث الملفات للمساعد من الحصول على المعرفة من الملفات التي تقوم بتحميلها أو تحميلها من قبل مستخدميك. بمجرد تحميل ملف، يقرر المساعد تلقائيًا متى يسترد المحتوى بناءً على طلبات المستخدم.</item>
+        <item>جستجو در فایل ها به دستیار این امکان را می دهد که از فایل هایی که شما یا کاربران شما آپلود می کنند، اطلاعات کسب کند. پس از آپلود فایل، دستیار به طور خودکار تصمیم می گیرد که چه زمانی محتوا را بر اساس درخواست کاربران بازیابی کند.</item>
+        <item>A fájlkeresés lehetővé teszi, hogy a segéd tudást szerezzen az Ön vagy a felhasználók által feltöltött fájlokból. Miután egy fájl fel lett töltve, a segéd automatikusan eldönti, hogy mikor kérje le a tartalmat a felhasználói kérések alapján.</item>
+        <item>Vyhledávání souborů umožňuje asistentovi získat znalosti ze souborů, které vy nebo vaši uživatelé nahrají. Po nahrání souboru asistent automaticky rozhodne, kdy má obsah na základě požadavků uživatelů získat.</item>
+        <item>Vyhľadávanie súborov umožňuje asistentovi získať vedomosti zo súborov, ktoré vy alebo vaši používatelia nahráte. Po nahraní súboru asistent automaticky rozhodne, kedy má obsah na základe požiadaviek používateľov získať.</item>
+        <item>Пошук файлів дозволяє помічнику отримати знання з файлів, які ви або ваші користувачі завантажують. Після завантаження файлу помічник автоматично вирішує, коли отримувати контент на основі запитів користувачів.</item>
+        <item>Căutarea de fișiere permite asistentului să aibă acces la cunoștințele din fișierele pe care le încărcați dumneavoastră sau utilizatorii dumneavoastră. Odată ce un fișier este încărcat, asistentul decide automat când să recupereze conținutul pe baza solicitărilor utilizatorilor.</item>
+    </string-array>
+    <string-array name="code_interpreter_help">
+        <item>Code Interpreter ช่วยให้ผู้ช่วยสามารถเขียนและรันโค้ดได้ เครื่องมือนี้สามารถประมวลผลไฟล์ที่มีข้อมูลและการจัดรูปแบบที่หลากหลาย และสร้างไฟล์ เช่น กราฟ</item>
+        <item>Code Interpreter enables the assistant to write and run code. This tool can process files with diverse data and formatting, and generate files such as graphs.</item>
+        <item>代码解释器使助手能够编写和运行代码。此工具可以处理具有不同数据和格式的文件，并生成图形等文件。</item>
+        <item>コードインタープリターにより、アシスタントはコードの記述と実行が可能になります。このツールは、さまざまなデータとフォーマットを持つファイルを処理し、グラフなどのファイルを生成できます。</item>
+        <item>Penterjemah Kod membolehkan pembantu untuk menulis dan menjalankan kod. Alat ini boleh memproses fail dengan data dan pemformatan yang pelbagai, dan menjana fail seperti graf.</item>
+        <item>Pinapagana ng Code Interpreter ang katulong na magsulat at magpatakbo ng code. Ang tool na ito ay maaaring magproseso ng mga file na may iba t ibang data at pag-format, at bumuo ng mga file tulad ng mga graph.</item>
+        <item>Code Interpreter memungkinkan asisten untuk menulis dan menjalankan kode. Alat ini dapat memproses file dengan data dan pemformatan yang beragam, dan menghasilkan file seperti grafik.</item>
+        <item>ໂປແກຼມແປພາສາໂຄດຊ່ວຍໃຫ້ຜູ້ຊ່ວຍສາມາດຂຽນແລະດໍາເນີນການໂຄດໄດ້. ເຄື່ອງມືນີ້ສາມາດປະມວນຜົນໄຟລ໌ທີ່ມີຂໍ້ມູນແລະການຈັດຮູບແບບທີ່ຫລາກຫລາຍ, ແລະສ້າງໄຟລ໌ເຊັ່ນ: ກຣາຟ.</item>
+        <item>코드 해석기는 어시스턴트가 코드를 작성하고 실행할 수 있도록 합니다. 이 도구는 다양한 데이터와 형식의 파일을 처리하고 그래프와 같은 파일을 생성할 수 있습니다.</item>
+        <item>Code Interpreter cho phép trợ lý viết và chạy mã. Công cụ này có thể xử lý các tệp có dữ liệu và định dạng đa dạng, và tạo ra các tệp như biểu đồ.</item>
+        <item>Code Interpreter permite al asistente escribir y ejecutar código. Esta herramienta puede procesar archivos con datos y formato diverso, y generar archivos como gráficos.</item>
+        <item>Code Interpreter permet à l\'assistant d\'écrire et d\'exécuter du code. Cet outil peut traiter des fichiers avec des données et des formats divers, et générer des fichiers tels que des graphiques.</item>
+        <item>Code Interpreter ermöglicht es dem Assistenten, Code zu schreiben und auszuführen. Dieses Tool kann Dateien mit unterschiedlichen Daten und Formatierungen verarbeiten und Dateien wie Diagramme generieren.</item>
+        <item>Code Interpreter consente all assistente di scrivere ed eseguire codice. Questo strumento può elaborare file con dati e formattazione diversi e generare file come grafici.</item>
+        <item>Code Interpreter permite que o assistente escreva e execute código. Esta ferramenta pode processar arquivos com dados e formatação diversos, e gerar arquivos como gráficos.</item>
+        <item>Code Interpreter позволяет помощнику писать и запускать код. Этот инструмент может обрабатывать файлы с различными данными и форматированием, а также генерировать файлы, такие как графики.</item>
+        <item>Code Interpreter stelt de assistent in staat om code te schrijven en uit te voeren. Deze tool kan bestanden met diverse gegevens en opmaak verwerken en bestanden zoals grafieken genereren.</item>
+        <item>Code Interpreter gör det möjligt för assistenten att skriva och köra kod. Det här verktyget kan bearbeta filer med olika data och formatering, och generera filer som grafer.</item>
+        <item>Code Interpreter gjør det mulig for assistenten å skrive og kjøre kode. Dette verktøyet kan behandle filer med forskjellige data og formatering, og generere filer som grafer.</item>
+        <item>Code Interpreter gør det muligt for assistenten at skrive og køre kode. Dette værktøj kan behandle filer med forskellige data og formatering, og generere filer som grafer.</item>
+        <item>Code Interpreterin avulla avustaja voi kirjoittaa ja suorittaa koodia. Tämä työkalu voi käsitellä tiedostoja, joissa on erilaisia ​​tietoja ja muotoiluja, ja luoda tiedostoja, kuten kaavioita.</item>
+        <item>Interpreter kodu umożliwia asystentowi pisanie i uruchamianie kodu. To narzędzie może przetwarzać pliki z różnymi danymi i formatowaniem oraz generować pliki, takie jak wykresy.</item>
+        <item>Kod Yorumlayıcı, asistanın kod yazmasını ve çalıştırmasını sağlar. Bu araç, çeşitli veriler ve biçimlendirmeye sahip dosyaları işleyebilir ve grafik gibi dosyalar oluşturabilir.</item>
+        <item>מפרש קוד מאפשר לעוזר לכתוב ולהריץ קוד. כלי זה יכול לעבד קבצים עם נתונים ופורמטים מגוונים, וליצור קבצים כמו גרפים.</item>
+        <item>يُمكّن مترجم الكود المساعد من كتابة وتشغيل الكود. يمكن لهذه الأداة معالجة الملفات ذات البيانات والتنسيق المتنوع، وإنشاء ملفات مثل الرسوم البيانية.</item>
+        <item>مترجم کد به دستیار امکان نوشتن و اجرای کد را می دهد. این ابزار می تواند فایل های با داده ها و قالب بندی متنوع را پردازش کند و فایل هایی مانند نمودارها را تولید کند.</item>
+        <item>A kódértelmező lehetővé teszi a segédnek, hogy kódot írjon és futtasson. Ez az eszköz feldolgozhatja a különféle adatokkal és formázással rendelkező fájlokat, és olyan fájlokat generálhat, mint például grafikonok.</item>
+        <item>Interpret kódu umožňuje asistentovi psát a spouštět kód. Tento nástroj dokáže zpracovat soubory s různými daty a formátováním a generovat soubory, jako jsou grafy.</item>
+        <item>Interpret kódu umožňuje asistentovi písať a spúšťať kód. Tento nástroj dokáže spracovať súbory s rôznymi dátami a formátovaním a generovať súbory, ako sú grafy.</item>
+        <item>Інтерпретатор коду дає можливість помічникові писати та запускати код. Цей інструмент може обробляти файли з різними даними та форматуванням, а також генерувати файли, такі як графіки.</item>
+        <item>Interpretul de cod permite asistentului să scrie și să execute cod. Acest instrument poate procesa fișiere cu date și formatări diverse și poate genera fișiere precum grafice.</item>
+    </string-array>
+    <string-array name="select_audio">
+        <item>กรุณาเลือกไฟล์เสียงก่อน!</item>
+        <item>Please select audio file first!</item>
+        <item>请先选择音频文件！</item>
+        <item>まず音声ファイルを選択してください！</item>
+        <item>Sila pilih fail audio terlebih dahulu!</item>
+        <item>Mangyaring pumili muna ng audio file!</item>
+        <item>Silakan pilih file audio terlebih dahulu!</item>
+        <item>ກະລຸນາເລືອກໄຟລ໌ສຽງກ່ອນ!</item>
+        <item>먼저 오디오 파일을 선택해 주세요!</item>
+        <item>Vui lòng chọn tệp âm thanh trước!</item>
+        <item>¡Por favor, selecciona un archivo de audio primero!</item>
+        <item>Veuillez sélectionner un fichier audio d\'abord !</item>
+        <item>Bitte wählen Sie zuerst eine Audiodatei aus!</item>
+        <item>Seleziona prima un file audio!</item>
+        <item>Por favor, selecione um arquivo de áudio primeiro!</item>
+        <item>Пожалуйста, сначала выберите аудиофайл!</item>
+        <item>Selecteer eerst een audiobestand!</item>
+        <item>Välj en ljudfil först!</item>
+        <item>Vennligst velg en lydfil først!</item>
+        <item>Vælg venligst en lydfil først!</item>
+        <item>Valitse ensin äänitiedosto!</item>
+        <item>Proszę najpierw wybrać plik audio!</item>
+        <item>Lütfen önce bir ses dosyası seçin!</item>
+        <item>אנא בחר קובץ שמע תחילה!</item>
+        <item>الرجاء تحديد ملف صوتي أولاً!</item>
+        <item>لطفا ابتدا فایل صوتی را انتخاب کنید!</item>
+        <item>Kérjük, először válasszon ki egy hangfájlt!</item>
+        <item>Vyberte prosím nejprve zvukový soubor!</item>
+        <item>Prosím, najprv vyberte zvukový súbor!</item>
+        <item>Будь ласка, спочатку виберіть аудіофайл!</item>
+        <item>Vă rugăm să selectați mai întâi un fișier audio!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/custom_assistant"
+        android:title="@string/custom_assistant" />
+    <item
+        android:id="@+id/text_to_speech"
+        android:title="@string/text_to_speech" />
+    <item
+        android:id="@+id/database"
+        android:title="@string/databasemanage" />
+    <item
+        android:id="@+id/image_database"
+        android:title="@string/databaseimage" />
+    <item
+        android:id="@+id/image_mod"
+        android:title="@string/imageMod" />
+    <item
+        android:id="@+id/update_latest"
+        android:title="@string/world_update" />
+    <item
+        android:id="@+id/help"
+        android:title="@string/help" />
+</menu>
