@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullView">
+
+    <FrameLayout
+        android:id="@+id/imageFrame4"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:background="@drawable/bg"
+        android:contentDescription="@string/chat_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="296dp"
+            android:layout_height="360dp"
+            android:layout_gravity="center"
+            android:background="@drawable/robot01"
+            android:contentDescription="@string/image"
+            android:foreground="@drawable/robot_eye02"
+            android:src="@drawable/robot_lip01" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/imageClose5"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/clear"
+        android:src="@android:drawable/btn_dialog"
+        app:layout_constraintBottom_toBottomOf="@id/imageFrame4"
+        app:layout_constraintEnd_toEndOf="@id/imageFrame4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/imageFrame4"
+        app:layout_constraintTop_toTopOf="@id/imageFrame4"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

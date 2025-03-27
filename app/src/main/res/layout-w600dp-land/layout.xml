@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/imageFrame"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/bg"
+        android:contentDescription="@string/chat_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/SV1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="99dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:background="@drawable/robot01"
+            android:contentDescription="@string/image"
+            android:foreground="@drawable/robot_eye02"
+            android:src="@drawable/robot_lip01" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/SV1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/imageFrame"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/talk"
+            android:src="@drawable/mic_button" />
+
+        <ImageButton
+            android:id="@+id/button6"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/selectAI"
+            android:src="@drawable/select_ai_button" />
+
+        <ImageButton
+            android:id="@+id/speech_to_text_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/speech_to_text"
+            android:src="@drawable/speech_to_text" />
+
+        <ImageButton
+            android:id="@+id/button10"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/settings"
+            android:src="@drawable/setting_button" />
+
+        <ImageButton
+            android:id="@+id/menu_btn"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/menu"
+            android:src="@drawable/menu_icon" />
+
+        <ImageButton
+            android:id="@+id/picture_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/selectImage"
+            android:src="@drawable/picture_button" />
+
+        <ImageButton
+            android:id="@+id/audio_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/audio"
+            android:src="@drawable/add_icon" />
+
+        <ImageButton
+            android:id="@+id/audio_proceed"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:contentDescription="@string/submit"
+            android:src="@drawable/send_icon" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/SV1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        style="@style/CustomScrollbar"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout13"
+        app:layout_constraintStart_toEndOf="@+id/imageFrame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout17">
+        <LinearLayout
+            android:id="@+id/share_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/qr_code2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/attache_to_code"
+                android:src="@drawable/wandee_ai_qr_code" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="@string/app_name"
+                android:layout_gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textStyle="bold"/>
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:max="1000"
+                android:indeterminate="true"
+                android:indeterminateBehavior="repeat" />
+            <ImageButton
+                android:id="@+id/expandView"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/image"
+                android:src="@drawable/history" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:hint="@string/welcome_text"
+                android:padding="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textHint" />
+            <ImageView
+                android:id="@+id/visionImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:layout_gravity="center_horizontal"
+                android:contentDescription="@string/image"/>
+            <ImageButton
+                android:id="@+id/share_btn"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:src="@android:drawable/ic_menu_share"
+                android:contentDescription="@string/show_text"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/up_down_zone1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintHorizontal_bias="0.99"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@+id/SV1"
+        app:layout_constraintStart_toEndOf="@+id/imageFrame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/SV1">
+        <ImageView
+            android:id="@+id/upIMG1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/up"
+            android:contentDescription="@string/up"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/downIMG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/down"
+                android:contentDescription="@string/down"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout17"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/SV1"
+        app:layout_constraintStart_toEndOf="@+id/imageFrame"
+        app:layout_constraintEnd_toStartOf="@+id/editTextLayout"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:id="@+id/from_label"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="@string/from"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"/>
+        <Spinner
+            android:id="@+id/speech_spinner"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/to_label"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="@string/to"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textStyle="bold"/>
+        <Spinner
+            android:id="@+id/text_spinner"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/editTextLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/SV1"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <AutoCompleteTextView
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:autofillHints="write here"
+            android:hint="@string/msg"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:minWidth="150dp"
+            android:minHeight="50dp"
+            android:padding="8dp"
+            android:scrollHorizontally="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/black"
+            android:textColorHint="@color/textHint" />
+        <ImageButton
+            android:id="@+id/imageClose3"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/loading"
+            android:src="@android:drawable/btn_dialog" />
+        <ImageButton
+            android:id="@+id/imageButton4"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/send_icon"
+            android:contentDescription="@string/submit" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_assistant"
+    tools:context=".CustomAssistant">
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:padding="8dp"
+        android:background="@drawable/title_border2"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/custom_assistant"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/mini_border_r"
+        android:padding="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/chatView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="@string/instructions"/>
+
+        <TextView
+            android:id="@+id/a_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:orientation="horizontal">
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/codes_sw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:thumb="@drawable/mini_sw"
+                        app:track="@drawable/mini_sw"
+                        app:showText="true"
+                        app:switchPadding="8dp"
+                        android:text="@string/code_interpreter"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/codes_help"
+                        android:src="@drawable/q"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/textview_border"
+                        android:layout_marginStart="8dp"
+                        android:contentDescription="@string/help"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/attache_to_code"
+                        android:textStyle="bold"/>
+
+                    <Spinner
+                        android:id="@+id/fileSpinner"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:orientation="horizontal">
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/file_sw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:thumb="@drawable/mini_sw"
+                        app:track="@drawable/mini_sw"
+                        app:showText="true"
+                        app:switchPadding="8dp"
+                        android:text="@string/file_search"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/file_help"
+                        android:src="@drawable/q"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/textview_border"
+                        android:layout_marginStart="8dp"
+                        android:contentDescription="@string/help"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="2dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/attache_to_file"
+                        android:textStyle="bold"/>
+
+                    <Spinner
+                        android:id="@+id/fileSpinner2"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/upload_btn"
+                style="@android:style/Widget.DeviceDefault.Button.Borderless"
+                android:src="@drawable/upload"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/upload_file"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintBottom_toTopOf="@id/run_status"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout18"
+        app:stackFromEnd="true" />
+
+    <TextView
+        android:id="@+id/run_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/mini_border_g"
+        app:layout_constraintBottom_toTopOf="@id/linearLayout19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chatView2"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="2dp"
+        android:minHeight="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/run_status"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/loading"
+            android:src="@drawable/refresh_icon" />
+
+        <ImageButton
+            android:id="@+id/menu_btn2"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:src="@drawable/menu_icon"
+            android:contentDescription="@string/menu"/>
+
+        <EditText
+            android:id="@+id/message_box"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:autofillHints="write here"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textColorHint="@color/textHint"
+            android:background="@drawable/edittext_border"
+            android:hint="@string/msg"
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:minWidth="150dp"
+            android:minHeight="50dp"
+            android:padding="8dp"/>
+
+        <ImageButton
+            android:id="@+id/run_button"
+            style="@android:style/Widget.DeviceDefault.Button.Borderless"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/submit"
+            android:background="@drawable/send_icon" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

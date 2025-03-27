@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:autofillHints="Wandee"
+        android:inputType="text"
+        android:hint= "@string/name" />
+
+    <EditText
+        android:id="@+id/instruction_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:autofillHints="You are helpful assistant."
+        android:inputType="text"
+        android:hint="@string/instructions" />
+
+</LinearLayout>
